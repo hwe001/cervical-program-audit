@@ -8,4 +8,5 @@ authors:
     given-names: Harvey
     affiliation: "Rātā BioSim Lab, Auckland, New Zealand"
     email: harvey@ratalab.nz
-# TODO: add co-authors, repository-code URL and the archived DOI once the repository is created and released.
+repository-code: "https://github.com/hwe001/cervical-program-audit"
+# TODO: add co-authors and the archived DOI once a release is archived.
