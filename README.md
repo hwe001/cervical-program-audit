@@ -12,7 +12,7 @@ Manuscript (in preparation): *Cell-level validation overstates computational res
 | Progression | GSE63514 (n=128) | hypoxia rho 0.64, T-cell senescence 0.48 (q < 1e-7) |
 | Clinical outcome | GSE168009 (5 vs 4), GSE56363 (12 vs 9), GSE70035 (6 vs 6) | no program significant after correction (lowest q = 0.20 over the 15 tests); signs conflict between the two CCRT cohorts; cohorts detect only large effects |
 | Prognosis (not treatment-specific) | TCGA-CESC (291 patients, 72 deaths) | hypoxia HR 1.87 per SD (q = 1e-4); T-cell/CDKN2A HR 0.71 (q = 0.006) |
-| Leakage and power | simulation and GSE236738 | with batch offsets and no treatment effect, random cell-level CV gives AUC 0.97 (3 patients) vs 0.49 for leave-one-patient-out; in GSE236738 the gap is 0.86 vs 0.80 |
+| Leakage and power | simulation, GSE236738 and GSE224327 (arbitrary labels) | with batch offsets and no treatment effect, random cell-level CV gives AUC 0.97 (3 patients) vs 0.49 for leave-one-patient-out; in GSE236738 the gap is 0.86 vs 0.80 |
 
 The full program-by-cohort table is `results/cross_cohort_table.csv`; figures are in `results/figures/`.
 
@@ -52,6 +52,7 @@ python code/benchmark_programs.py
 python code/gene_level_gse63514.py
 python code/build_cross_cohort_table.py
 python code/validation_strategies.py    # random cell, sample split, LOPO, pseudobulk, label flips, effective sample size
+python code/second_cohort_null_labels.py # second cohort (GSE224327): leakage with arbitrary labels
 python code/robustness_analyses.py     # CDKN2A split, GSE63514 by dissection method, TCGA Cox
 python code/power_simulation.py         # power of leave-one-patient-out validation
 python code/make_fig_leakage.py

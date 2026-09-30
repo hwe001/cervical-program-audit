@@ -29,6 +29,7 @@ FILES = {
     'external_public/GSE70035/GSE70035_series_matrix.txt.gz': GEO + 'series/GSE70nnn/GSE70035/matrix/GSE70035_series_matrix.txt.gz',
     'external_public/GSE70035/GSE70035_family.soft.gz': GEO + 'series/GSE70nnn/GSE70035/soft/GSE70035_family.soft.gz',
     'external_public/GSE168009/GSE168009_Raw_count.txt.gz': GEO + 'series/GSE168nnn/GSE168009/suppl/GSE168009_Raw_count.txt.gz',
+    'GSE224327_RAW.tar': GEO + 'series/GSE224nnn/GSE224327/suppl/GSE224327_RAW.tar',
     'data_tcga_cesc/TCGA-CESC.star_tpm.tsv.gz': 'https://gdc.xenahubs.net/download/TCGA-CESC.star_tpm.tsv.gz',
 }
 

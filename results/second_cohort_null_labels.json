@@ -1,0 +1,100 @@
+{
+  "cohort": "GSE224327",
+  "n_patients": 6,
+  "n_cells": 42984,
+  "labelings": [
+    {
+      "class1": [
+        "PT1",
+        "PT2",
+        "PT3"
+      ],
+      "random_cell_5fold_auc": 0.8049422136210242,
+      "hold_out_one_patient_per_class_auc": 0.35992999035012585
+    },
+    {
+      "class1": [
+        "PT1",
+        "PT2",
+        "PT4"
+      ],
+      "random_cell_5fold_auc": 0.8412618789576396,
+      "hold_out_one_patient_per_class_auc": 0.43581249065901345
+    },
+    {
+      "class1": [
+        "PT1",
+        "PT2",
+        "PT5"
+      ],
+      "random_cell_5fold_auc": 0.8828670927545899,
+      "hold_out_one_patient_per_class_auc": 0.5956367932237385
+    },
+    {
+      "class1": [
+        "PT1",
+        "PT2",
+        "PT6"
+      ],
+      "random_cell_5fold_auc": 0.8530093687348602,
+      "hold_out_one_patient_per_class_auc": 0.6236508182090907
+    },
+    {
+      "class1": [
+        "PT1",
+        "PT3",
+        "PT4"
+      ],
+      "random_cell_5fold_auc": 0.7832016060803607,
+      "hold_out_one_patient_per_class_auc": 0.28981708317387206
+    },
+    {
+      "class1": [
+        "PT1",
+        "PT3",
+        "PT5"
+      ],
+      "random_cell_5fold_auc": 0.7962634251385655,
+      "hold_out_one_patient_per_class_auc": 0.3745089740729138
+    },
+    {
+      "class1": [
+        "PT1",
+        "PT3",
+        "PT6"
+      ],
+      "random_cell_5fold_auc": 0.8578597761121024,
+      "hold_out_one_patient_per_class_auc": 0.5633751369379382
+    },
+    {
+      "class1": [
+        "PT1",
+        "PT4",
+        "PT5"
+      ],
+      "random_cell_5fold_auc": 0.9042849507542939,
+      "hold_out_one_patient_per_class_auc": 0.7685160763010431
+    },
+    {
+      "class1": [
+        "PT1",
+        "PT4",
+        "PT6"
+      ],
+      "random_cell_5fold_auc": 0.814622407512602,
+      "hold_out_one_patient_per_class_auc": 0.4743695500683615
+    },
+    {
+      "class1": [
+        "PT1",
+        "PT5",
+        "PT6"
+      ],
+      "random_cell_5fold_auc": 0.8234242210006283,
+      "hold_out_one_patient_per_class_auc": 0.5143830870039027
+    }
+  ],
+  "random_cell_mean": 0.8361736940666666,
+  "patient_holdout_mean": 0.5,
+  "note": "labels are arbitrary by construction; any AUC above 0.5 is leakage or chance"
+}
