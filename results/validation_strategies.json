@@ -1,0 +1,120 @@
+{
+  "model": "logistic regression (L2, C=0.1) on the 55-gene panel",
+  "n_cells": 48072,
+  "n_samples": 6,
+  "n_patients": 3,
+  "random_cell_5fold": 0.8627099906754208,
+  "sample_split_one_sample_per_patient": {
+    "splits": 6,
+    "auc_mean": 0.5974541846149773,
+    "auc_min": 0.5038170885062587,
+    "auc_max": 0.7164029188683123
+  },
+  "leave_one_patient_out": {
+    "folds": {
+      "P1": 0.8833131408872192,
+      "P2": 0.7711458728580851,
+      "P3": 0.741339061953168
+    },
+    "auc_mean": 0.7985993585661575
+  },
+  "pseudobulk_leave_one_patient_out": {
+    "folds": {
+      "P1": 1.0,
+      "P2": 1.0,
+      "P3": 1.0
+    },
+    "auc_mean": 1.0,
+    "note": "each held-out patient contributes two samples, so each fold AUC is 0, 0.5 or 1"
+  },
+  "label_flip_controls": [
+    {
+      "flipped": [
+        "P1"
+      ],
+      "random_cell_5fold": 0.7194716904598708,
+      "leave_one_patient_out": 0.27840584644998273
+    },
+    {
+      "flipped": [
+        "P2"
+      ],
+      "random_cell_5fold": 0.7478320908369986,
+      "leave_one_patient_out": 0.47782639174620395
+    },
+    {
+      "flipped": [
+        "P3"
+      ],
+      "random_cell_5fold": 0.7510313853568034,
+      "leave_one_patient_out": 0.4451684032376559
+    },
+    {
+      "flipped": [
+        "P1",
+        "P2"
+      ],
+      "random_cell_5fold": 0.7510313853568034,
+      "leave_one_patient_out": 0.44516840323765594
+    },
+    {
+      "flipped": [
+        "P1",
+        "P3"
+      ],
+      "random_cell_5fold": 0.7478320908369986,
+      "leave_one_patient_out": 0.47782639174620395
+    },
+    {
+      "flipped": [
+        "P2",
+        "P3"
+      ],
+      "random_cell_5fold": 0.7194716904598708,
+      "leave_one_patient_out": 0.27840584644998273
+    }
+  ],
+  "label_flip_summary": {
+    "random_cell_5fold_range": [
+      0.7194716904598708,
+      0.7510313853568034
+    ],
+    "lopo_range": [
+      0.27840584644998273,
+      0.47782639174620395
+    ]
+  },
+  "effective_sample_size": {
+    "cells": 48072,
+    "samples": 6,
+    "patients": 3,
+    "cells_per_sample_mean": 8012.0,
+    "programs": {
+      "ACKR2_TGFb": {
+        "icc_by_sample": 0.007073433968262094,
+        "design_effect": 57.665279519747635,
+        "effective_n_cells": 833.6385499273894
+      },
+      "MDM2_DDR": {
+        "icc_by_sample": 0.1636651801405226,
+        "design_effect": 1312.1217581057265,
+        "effective_n_cells": 36.636843877507374
+      },
+      "Tcell_senescence": {
+        "icc_by_sample": 0.07358763140300757,
+        "design_effect": 590.5105151694937,
+        "effective_n_cells": 81.4075258019782
+      },
+      "Hypoxia": {
+        "icc_by_sample": 0.11061105765625809,
+        "design_effect": 887.1051828842835,
+        "effective_n_cells": 54.18974088698414
+      },
+      "CAF_ECM": {
+        "icc_by_sample": 0.0541095884151858,
+        "design_effect": 434.4719127940535,
+        "effective_n_cells": 110.64466674232837
+      }
+    }
+  }
+}

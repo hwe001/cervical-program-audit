@@ -51,6 +51,7 @@ python code/score_gse6213.py
 python code/benchmark_programs.py
 python code/gene_level_gse63514.py
 python code/build_cross_cohort_table.py
+python code/validation_strategies.py    # random cell, sample split, LOPO, pseudobulk, label flips, effective sample size
 python code/robustness_analyses.py     # CDKN2A split, GSE63514 by dissection method, TCGA Cox
 python code/power_simulation.py         # power of leave-one-patient-out validation
 python code/make_fig_leakage.py
