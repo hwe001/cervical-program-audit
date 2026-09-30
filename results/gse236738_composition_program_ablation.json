@@ -1,0 +1,158 @@
+{
+  "composition_only": {
+    "n_features": 8,
+    "features": [
+      "B_cell",
+      "Endothelial",
+      "Epithelial",
+      "Fibroblast",
+      "Mast",
+      "Myeloid",
+      "Other/ambiguous",
+      "T_NK"
+    ],
+    "model_comparison": [
+      {
+        "model": "logistic_regression",
+        "held_out_patient": "P1",
+        "auc": 1.0
+      },
+      {
+        "model": "logistic_regression",
+        "held_out_patient": "P2",
+        "auc": 1.0
+      },
+      {
+        "model": "logistic_regression",
+        "held_out_patient": "P3",
+        "auc": 1.0
+      },
+      {
+        "model": "random_forest",
+        "held_out_patient": "P1",
+        "auc": 1.0
+      },
+      {
+        "model": "random_forest",
+        "held_out_patient": "P2",
+        "auc": 1.0
+      },
+      {
+        "model": "random_forest",
+        "held_out_patient": "P3",
+        "auc": 0.0
+      }
+    ],
+    "observed_mean_auc": {
+      "logistic_regression": 1.0,
+      "random_forest": 0.6666666666666666
+    },
+    "permutation_null_mean": 0.47,
+    "permutation_null_95th": 1.0
+  },
+  "program_only": {
+    "n_features": 5,
+    "features": [
+      "ACKR2_TGFb",
+      "MDM2_DDR",
+      "Tcell_senescence",
+      "Hypoxia",
+      "CAF_ECM"
+    ],
+    "model_comparison": [
+      {
+        "model": "logistic_regression",
+        "held_out_patient": "P1",
+        "auc": 1.0
+      },
+      {
+        "model": "logistic_regression",
+        "held_out_patient": "P2",
+        "auc": 1.0
+      },
+      {
+        "model": "logistic_regression",
+        "held_out_patient": "P3",
+        "auc": 1.0
+      },
+      {
+        "model": "random_forest",
+        "held_out_patient": "P1",
+        "auc": 1.0
+      },
+      {
+        "model": "random_forest",
+        "held_out_patient": "P2",
+        "auc": 1.0
+      },
+      {
+        "model": "random_forest",
+        "held_out_patient": "P3",
+        "auc": 1.0
+      }
+    ],
+    "observed_mean_auc": {
+      "logistic_regression": 1.0,
+      "random_forest": 1.0
+    },
+    "permutation_null_mean": 0.498,
+    "permutation_null_95th": 1.0
+  },
+  "combined": {
+    "n_features": 13,
+    "features": [
+      "ACKR2_TGFb",
+      "MDM2_DDR",
+      "Tcell_senescence",
+      "Hypoxia",
+      "CAF_ECM",
+      "B_cell",
+      "Endothelial",
+      "Epithelial",
+      "Fibroblast",
+      "Mast",
+      "Myeloid",
+      "Other/ambiguous",
+      "T_NK"
+    ],
+    "model_comparison": [
+      {
+        "model": "logistic_regression",
+        "held_out_patient": "P1",
+        "auc": 1.0
+      },
+      {
+        "model": "logistic_regression",
+        "held_out_patient": "P2",
+        "auc": 1.0
+      },
+      {
+        "model": "logistic_regression",
+        "held_out_patient": "P3",
+        "auc": 1.0
+      },
+      {
+        "model": "random_forest",
+        "held_out_patient": "P1",
+        "auc": 1.0
+      },
+      {
+        "model": "random_forest",
+        "held_out_patient": "P2",
+        "auc": 1.0
+      },
+      {
+        "model": "random_forest",
+        "held_out_patient": "P3",
+        "auc": 1.0
+      }
+    ],
+    "observed_mean_auc": {
+      "logistic_regression": 1.0,
+      "random_forest": 1.0
+    },
+    "permutation_null_mean": 0.486,
+    "permutation_null_95th": 1.0
+  },
+  "caveat": "Only six biological samples are available; every feature set here shares the same leakage-control-benchmark limitation already stated for sample_level_benchmark.json. This ablation is about relative signal contribution between feature sets, not an independent claim of predictive validity for any single one."
+}

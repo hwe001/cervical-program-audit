@@ -1,0 +1,109 @@
+{
+  "dataset": "GSE70035",
+  "design": "pretreatment expression profiling; RECIST responder vs non-responder after neoadjuvant chemotherapy",
+  "n_samples": 12,
+  "n_responder": 6,
+  "n_non_responder": 6,
+  "genes_found": [
+    "ACKR2",
+    "BBC3",
+    "CA9",
+    "CD8A",
+    "CD8B",
+    "CDKN1A",
+    "CDKN2A",
+    "COL1A1",
+    "COL1A2",
+    "DCN",
+    "DDB2",
+    "EPAS1",
+    "FAP",
+    "GADD45A",
+    "HIF1A",
+    "LAG3",
+    "LDHA",
+    "LUM",
+    "MDM2",
+    "PDGFRA",
+    "SLC2A1",
+    "TGFB1",
+    "TGFB2",
+    "TGFB3",
+    "TGFBR1",
+    "TGFBR2",
+    "TIGIT",
+    "TOX",
+    "VEGFA"
+  ],
+  "programs": {
+    "ACKR2_TGFb": {
+      "genes_found": [
+        "ACKR2",
+        "TGFB1",
+        "TGFB2",
+        "TGFB3",
+        "TGFBR1",
+        "TGFBR2"
+      ],
+      "mean_NR_minus_R": -0.4607746960507536,
+      "exact_permutation_p_two_sided": 0.1654054054054054,
+      "direction": "higher_R",
+      "BH_q_across_five_programs": 0.827027027027027
+    },
+    "MDM2_DDR": {
+      "genes_found": [
+        "MDM2",
+        "CDKN1A",
+        "GADD45A",
+        "DDB2",
+        "BBC3"
+      ],
+      "mean_NR_minus_R": -0.04642747877113304,
+      "exact_permutation_p_two_sided": 0.8291891891891892,
+      "direction": "higher_R",
+      "BH_q_across_five_programs": 0.8291891891891892
+    },
+    "Tcell_senescence": {
+      "genes_found": [
+        "CD8A",
+        "CD8B",
+        "CDKN2A",
+        "TOX",
+        "TIGIT",
+        "LAG3"
+      ],
+      "mean_NR_minus_R": -0.34016906285407356,
+      "exact_permutation_p_two_sided": 0.4010810810810811,
+      "direction": "higher_R",
+      "BH_q_across_five_programs": 0.6684684684684684
+    },
+    "Hypoxia": {
+      "genes_found": [
+        "HIF1A",
+        "EPAS1",
+        "VEGFA",
+        "CA9",
+        "SLC2A1",
+        "LDHA"
+      ],
+      "mean_NR_minus_R": -0.3737981874724717,
+      "exact_permutation_p_two_sided": 0.3772972972972973,
+      "direction": "higher_R",
+      "BH_q_across_five_programs": 0.9432432432432432
+    },
+    "CAF_ECM": {
+      "genes_found": [
+        "COL1A1",
+        "COL1A2",
+        "DCN",
+        "LUM",
+        "FAP",
+        "PDGFRA"
+      ],
+      "mean_NR_minus_R": -0.25413433599969004,
+      "exact_permutation_p_two_sided": 0.7232432432432433,
+      "direction": "higher_R",
+      "BH_q_across_five_programs": 0.9040540540540541
+    }
+  }
+}

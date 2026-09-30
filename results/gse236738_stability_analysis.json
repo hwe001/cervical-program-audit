@@ -1,0 +1,773 @@
+{
+  "n_cells": 48072,
+  "n_genes": 55,
+  "n_programs": 5,
+  "lopo_folds": [
+    {
+      "held_out_patient": "P1",
+      "n_train": 33589
+    },
+    {
+      "held_out_patient": "P2",
+      "n_train": 33311
+    },
+    {
+      "held_out_patient": "P3",
+      "n_train": 29244
+    }
+  ],
+  "gene_level": {
+    "lopo_rank_stability": {
+      "mean_spearman": 0.8067821067821069,
+      "mean_top_k_jaccard": 0.5818713450292398,
+      "n_pairs": 3
+    },
+    "subsample_rank_stability": {
+      "mean_spearman": 0.9938482781874746,
+      "mean_top_k_jaccard": 0.9198108187998818,
+      "n_pairs": 19900
+    },
+    "subsample_selection_frequency_top20": [
+      {
+        "name": "MDM2",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.1508460520533855,
+        "importance_95ci": [
+          0.14229904247647826,
+          0.15998955987948282
+        ]
+      },
+      {
+        "name": "LDHA",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.037869247004019085,
+        "importance_95ci": [
+          0.03376886713344049,
+          0.042843469859938484
+        ]
+      },
+      {
+        "name": "LST1",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.03002497268472407,
+        "importance_95ci": [
+          0.025704150458879086,
+          0.03370503790144995
+        ]
+      },
+      {
+        "name": "CD3E",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.04148658691100415,
+        "importance_95ci": [
+          0.036646404602657376,
+          0.04634844673671379
+        ]
+      },
+      {
+        "name": "BBC3",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.06246998925242595,
+        "importance_95ci": [
+          0.05689319029058558,
+          0.06913903023437168
+        ]
+      },
+      {
+        "name": "FCER1G",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.025557432398288813,
+        "importance_95ci": [
+          0.0227401829706325,
+          0.028981239894559516
+        ]
+      },
+      {
+        "name": "KRT14",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.08550249811914926,
+        "importance_95ci": [
+          0.07790685234716463,
+          0.09440053636924223
+        ]
+      },
+      {
+        "name": "DDB2",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.05262744653140698,
+        "importance_95ci": [
+          0.047575391710833956,
+          0.05772922925361727
+        ]
+      },
+      {
+        "name": "CTSS",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.02299291833547596,
+        "importance_95ci": [
+          0.020917912980890265,
+          0.025625443082522684
+        ]
+      },
+      {
+        "name": "CDKN1A",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.05772374309651315,
+        "importance_95ci": [
+          0.052528603175717295,
+          0.06264220084442235
+        ]
+      },
+      {
+        "name": "CDKN2A",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.07234989762821857,
+        "importance_95ci": [
+          0.06523813196111987,
+          0.0790482787821334
+        ]
+      },
+      {
+        "name": "CD3D",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.025515761570922977,
+        "importance_95ci": [
+          0.022134611816635116,
+          0.029692312923386803
+        ]
+      },
+      {
+        "name": "AIF1",
+        "selection_frequency": 0.995,
+        "mean_importance": 0.025214686861502154,
+        "importance_95ci": [
+          0.021599557333187927,
+          0.028975086429560946
+        ]
+      },
+      {
+        "name": "TYROBP",
+        "selection_frequency": 0.895,
+        "mean_importance": 0.021204662705628624,
+        "importance_95ci": [
+          0.018445645858262458,
+          0.024115637258942887
+        ]
+      },
+      {
+        "name": "KRT18",
+        "selection_frequency": 0.695,
+        "mean_importance": 0.020707521675237994,
+        "importance_95ci": [
+          0.017116781943668967,
+          0.02462623320097983
+        ]
+      },
+      {
+        "name": "KRT17",
+        "selection_frequency": 0.27,
+        "mean_importance": 0.018932059145129018,
+        "importance_95ci": [
+          0.01625024243868719,
+          0.02193404626663314
+        ]
+      },
+      {
+        "name": "GADD45A",
+        "selection_frequency": 0.095,
+        "mean_importance": 0.018046438336779227,
+        "importance_95ci": [
+          0.01613615192537359,
+          0.020241433941709262
+        ]
+      },
+      {
+        "name": "EPCAM",
+        "selection_frequency": 0.04,
+        "mean_importance": 0.01649292944552288,
+        "importance_95ci": [
+          0.012539066694594002,
+          0.020017853363556243
+        ]
+      },
+      {
+        "name": "TRBC1",
+        "selection_frequency": 0.01,
+        "mean_importance": 0.016290601362984058,
+        "importance_95ci": [
+          0.013054561963498825,
+          0.019526244923448458
+        ]
+      },
+      {
+        "name": "TIGIT",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.010393077697932716,
+        "importance_95ci": [
+          0.008513613119733142,
+          0.01247958707199977
+        ]
+      }
+    ],
+    "subsample_selection_frequency_all": [
+      {
+        "name": "MDM2",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.1508460520533855,
+        "importance_95ci": [
+          0.14229904247647826,
+          0.15998955987948282
+        ]
+      },
+      {
+        "name": "LDHA",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.037869247004019085,
+        "importance_95ci": [
+          0.03376886713344049,
+          0.042843469859938484
+        ]
+      },
+      {
+        "name": "LST1",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.03002497268472407,
+        "importance_95ci": [
+          0.025704150458879086,
+          0.03370503790144995
+        ]
+      },
+      {
+        "name": "CD3E",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.04148658691100415,
+        "importance_95ci": [
+          0.036646404602657376,
+          0.04634844673671379
+        ]
+      },
+      {
+        "name": "BBC3",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.06246998925242595,
+        "importance_95ci": [
+          0.05689319029058558,
+          0.06913903023437168
+        ]
+      },
+      {
+        "name": "FCER1G",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.025557432398288813,
+        "importance_95ci": [
+          0.0227401829706325,
+          0.028981239894559516
+        ]
+      },
+      {
+        "name": "KRT14",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.08550249811914926,
+        "importance_95ci": [
+          0.07790685234716463,
+          0.09440053636924223
+        ]
+      },
+      {
+        "name": "DDB2",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.05262744653140698,
+        "importance_95ci": [
+          0.047575391710833956,
+          0.05772922925361727
+        ]
+      },
+      {
+        "name": "CTSS",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.02299291833547596,
+        "importance_95ci": [
+          0.020917912980890265,
+          0.025625443082522684
+        ]
+      },
+      {
+        "name": "CDKN1A",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.05772374309651315,
+        "importance_95ci": [
+          0.052528603175717295,
+          0.06264220084442235
+        ]
+      },
+      {
+        "name": "CDKN2A",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.07234989762821857,
+        "importance_95ci": [
+          0.06523813196111987,
+          0.0790482787821334
+        ]
+      },
+      {
+        "name": "CD3D",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.025515761570922977,
+        "importance_95ci": [
+          0.022134611816635116,
+          0.029692312923386803
+        ]
+      },
+      {
+        "name": "AIF1",
+        "selection_frequency": 0.995,
+        "mean_importance": 0.025214686861502154,
+        "importance_95ci": [
+          0.021599557333187927,
+          0.028975086429560946
+        ]
+      },
+      {
+        "name": "TYROBP",
+        "selection_frequency": 0.895,
+        "mean_importance": 0.021204662705628624,
+        "importance_95ci": [
+          0.018445645858262458,
+          0.024115637258942887
+        ]
+      },
+      {
+        "name": "KRT18",
+        "selection_frequency": 0.695,
+        "mean_importance": 0.020707521675237994,
+        "importance_95ci": [
+          0.017116781943668967,
+          0.02462623320097983
+        ]
+      },
+      {
+        "name": "KRT17",
+        "selection_frequency": 0.27,
+        "mean_importance": 0.018932059145129018,
+        "importance_95ci": [
+          0.01625024243868719,
+          0.02193404626663314
+        ]
+      },
+      {
+        "name": "GADD45A",
+        "selection_frequency": 0.095,
+        "mean_importance": 0.018046438336779227,
+        "importance_95ci": [
+          0.01613615192537359,
+          0.020241433941709262
+        ]
+      },
+      {
+        "name": "EPCAM",
+        "selection_frequency": 0.04,
+        "mean_importance": 0.01649292944552288,
+        "importance_95ci": [
+          0.012539066694594002,
+          0.020017853363556243
+        ]
+      },
+      {
+        "name": "TRBC1",
+        "selection_frequency": 0.01,
+        "mean_importance": 0.016290601362984058,
+        "importance_95ci": [
+          0.013054561963498825,
+          0.019526244923448458
+        ]
+      },
+      {
+        "name": "TIGIT",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.010393077697932716,
+        "importance_95ci": [
+          0.008513613119733142,
+          0.01247958707199977
+        ]
+      },
+      {
+        "name": "TOX",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0025823035948573064,
+        "importance_95ci": [
+          0.0018071841443774756,
+          0.0034578572017041316
+        ]
+      },
+      {
+        "name": "VEGFA",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.006780334290209063,
+        "importance_95ci": [
+          0.005934690505857374,
+          0.007885409958549493
+        ]
+      },
+      {
+        "name": "VWF",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0010136095205995263,
+        "importance_95ci": [
+          0.0005913216399933681,
+          0.0015133892755833775
+        ]
+      },
+      {
+        "name": "LILRB1",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.002175812334547319,
+        "importance_95ci": [
+          0.0017966410800455076,
+          0.00258720307032712
+        ]
+      },
+      {
+        "name": "LUM",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0033740891431485783,
+        "importance_95ci": [
+          0.0027861581430259474,
+          0.00402310522533
+        ]
+      },
+      {
+        "name": "NKG7",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.012442373193211138,
+        "importance_95ci": [
+          0.010756077221524874,
+          0.013985702559996413
+        ]
+      },
+      {
+        "name": "MS4A1",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.004587012627182901,
+        "importance_95ci": [
+          0.0035777268484696177,
+          0.00593559318874539
+        ]
+      },
+      {
+        "name": "PAX8",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.011344027171411529,
+        "importance_95ci": [
+          0.008405490947848976,
+          0.014228934004166196
+        ]
+      },
+      {
+        "name": "SLC2A1",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.013510194034079945,
+        "importance_95ci": [
+          0.010331497914882132,
+          0.01652517552505334
+        ]
+      },
+      {
+        "name": "PECAM1",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0050145424127783726,
+        "importance_95ci": [
+          0.004223659768169254,
+          0.005719301774283246
+        ]
+      },
+      {
+        "name": "PDGFRA",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0005299330231602554,
+        "importance_95ci": [
+          0.0003798952818535928,
+          0.0007214707871646979
+        ]
+      },
+      {
+        "name": "TGFB2",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.00026624146553978734,
+        "importance_95ci": [
+          0.00015227144300118285,
+          0.00044055631607190974
+        ]
+      },
+      {
+        "name": "TGFB3",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0005150565193412003,
+        "importance_95ci": [
+          0.0003182633436959796,
+          0.0007366610597870878
+        ]
+      },
+      {
+        "name": "TGFBR1",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.00468720661430364,
+        "importance_95ci": [
+          0.0036061190838438213,
+          0.0059147666826608785
+        ]
+      },
+      {
+        "name": "TGFB1",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.015184421909648724,
+        "importance_95ci": [
+          0.01375531227599551,
+          0.016721684750048222
+        ]
+      },
+      {
+        "name": "TGFBR2",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.009198207404612855,
+        "importance_95ci": [
+          0.008020989663931844,
+          0.010624971791380854
+        ]
+      },
+      {
+        "name": "TPSAB1",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0047550723792614625,
+        "importance_95ci": [
+          0.003719561247143624,
+          0.0058845589227499604
+        ]
+      },
+      {
+        "name": "KRT19",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.011306246115310297,
+        "importance_95ci": [
+          0.010081192812817222,
+          0.012498508523368012
+        ]
+      },
+      {
+        "name": "LAG3",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.004270018352550936,
+        "importance_95ci": [
+          0.003651625001991892,
+          0.005154567841321036
+        ]
+      },
+      {
+        "name": "EMCN",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.00018687814193132406,
+        "importance_95ci": [
+          8.861366293300987e-05,
+          0.00032558417653168664
+        ]
+      },
+      {
+        "name": "EPAS1",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0032151793560841156,
+        "importance_95ci": [
+          0.0027918422294498433,
+          0.0037502236586093207
+        ]
+      },
+      {
+        "name": "FAP",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0007236665879960082,
+        "importance_95ci": [
+          0.0004849606212264759,
+          0.0010199321266591865
+        ]
+      },
+      {
+        "name": "HIF1A",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.013083753169118438,
+        "importance_95ci": [
+          0.011928624835058745,
+          0.014146615791740341
+        ]
+      },
+      {
+        "name": "GNLY",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.008742228372654117,
+        "importance_95ci": [
+          0.007645546820787713,
+          0.009789748626011289
+        ]
+      },
+      {
+        "name": "KRT8",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.012354627824785438,
+        "importance_95ci": [
+          0.01013375185440341,
+          0.015103025524387232
+        ]
+      },
+      {
+        "name": "KIT",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0005215826114582458,
+        "importance_95ci": [
+          0.0003487985050170489,
+          0.0007348027915747647
+        ]
+      },
+      {
+        "name": "KDR",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.00011473777899252134,
+        "importance_95ci": [
+          4.587188045800888e-05,
+          0.00021267748802216314
+        ]
+      },
+      {
+        "name": "CD8B",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.002488260515806885,
+        "importance_95ci": [
+          0.0020639925262389432,
+          0.003028632870211505
+        ]
+      },
+      {
+        "name": "COL1A1",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.005749722298387412,
+        "importance_95ci": [
+          0.004879086728729061,
+          0.006744111420580861
+        ]
+      },
+      {
+        "name": "DCN",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0035835634065988988,
+        "importance_95ci": [
+          0.0029727885958634945,
+          0.004319496618940986
+        ]
+      },
+      {
+        "name": "COL1A2",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.005383834704656365,
+        "importance_95ci": [
+          0.004545392209970217,
+          0.006229428292339934
+        ]
+      },
+      {
+        "name": "CD8A",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.00411972618364601,
+        "importance_95ci": [
+          0.003293029646930864,
+          0.00515380597671314
+        ]
+      },
+      {
+        "name": "CD79A",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.01253219915054999,
+        "importance_95ci": [
+          0.010086027189269707,
+          0.0149760177083324
+        ]
+      },
+      {
+        "name": "CA9",
+        "selection_frequency": 0.0,
+        "mean_importance": 0.0013389579210926516,
+        "importance_95ci": [
+          0.0007967135321892809,
+          0.0020148025626275075
+        ]
+      },
+      {
+        "name": "ACKR2",
+        "selection_frequency": 0.0,
+        "mean_importance": 7.585705423562779e-05,
+        "importance_95ci": [
+          1.4950636608826412e-05,
+          0.00017008363423438457
+        ]
+      }
+    ]
+  },
+  "program_level": {
+    "lopo_rank_stability": {
+      "mean_spearman": 0.8666666666666666,
+      "mean_top_k_jaccard": 1.0,
+      "n_pairs": 3
+    },
+    "subsample_rank_stability": {
+      "mean_spearman": 0.9999999999999998,
+      "mean_top_k_jaccard": 1.0,
+      "n_pairs": 19900
+    },
+    "subsample_selection_frequency": [
+      {
+        "name": "CAF_ECM",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.01934480916394752,
+        "importance_95ci": [
+          0.01755387456485983,
+          0.021086063270529823
+        ]
+      },
+      {
+        "name": "Hypoxia",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.0757976657746033,
+        "importance_95ci": [
+          0.07018444005624752,
+          0.08159827600696631
+        ]
+      },
+      {
+        "name": "Tcell_senescence",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.09620328397301244,
+        "importance_95ci": [
+          0.08895860443532791,
+          0.10327859302042876
+        ]
+      },
+      {
+        "name": "MDM2_DDR",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.34171366927051083,
+        "importance_95ci": [
+          0.33313466241657474,
+          0.34938373723774135
+        ]
+      },
+      {
+        "name": "ACKR2_TGFb",
+        "selection_frequency": 1.0,
+        "mean_importance": 0.029926990967681838,
+        "importance_95ci": [
+          0.027638904287687543,
+          0.03216835958340491
+        ]
+      }
+    ]
+  },
+  "n_subsamples": 200,
+  "subsample_fraction": 0.5,
+  "top_k_for_selection_frequency_and_jaccard": 15,
+  "caveat": "LOPO stability is computed across only 3 folds (3 patients), so its rank-correlation/Jaccard estimates are themselves noisy point estimates, not a well-powered statistic \u2014 report alongside the subsample-based stability selection (200 runs), which is the better-powered of the two. Subsampling draws cells from the pooled pool without patient stratification, so it reflects sampling variability, not patient-to-patient generalization; LOPO is the complementary check for that."
+}

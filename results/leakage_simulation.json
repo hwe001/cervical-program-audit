@@ -1,0 +1,75 @@
+{
+  "params": {
+    "genes": 55,
+    "cells_per_sample": 300,
+    "sample_offset_sd": 0.5,
+    "reps": 20,
+    "model": "logistic regression"
+  },
+  "results": [
+    {
+      "scenario": "no treatment effect",
+      "patients": 3,
+      "cell_level_cv_auc_mean": 0.9711509259259261,
+      "cell_level_cv_auc_sd": 0.017935241057740723,
+      "leave_one_patient_out_auc_mean": 0.4937870370370371,
+      "leave_one_patient_out_auc_sd": 0.14901629675149916
+    },
+    {
+      "scenario": "no treatment effect",
+      "patients": 5,
+      "cell_level_cv_auc_mean": 0.9435823333333332,
+      "cell_level_cv_auc_sd": 0.016981203951486355,
+      "leave_one_patient_out_auc_mean": 0.5199242222222221,
+      "leave_one_patient_out_auc_sd": 0.13122970345199583
+    },
+    {
+      "scenario": "no treatment effect",
+      "patients": 10,
+      "cell_level_cv_auc_mean": 0.8645312500000001,
+      "cell_level_cv_auc_sd": 0.01960834207935696,
+      "leave_one_patient_out_auc_mean": 0.5327053333333333,
+      "leave_one_patient_out_auc_sd": 0.061763259994399626
+    },
+    {
+      "scenario": "no treatment effect",
+      "patients": 20,
+      "cell_level_cv_auc_mean": 0.7690158611111111,
+      "cell_level_cv_auc_sd": 0.02310899957441357,
+      "leave_one_patient_out_auc_mean": 0.48969255555555546,
+      "leave_one_patient_out_auc_sd": 0.06029761103394755
+    },
+    {
+      "scenario": "small true effect",
+      "patients": 3,
+      "cell_level_cv_auc_mean": 0.9797990740740741,
+      "cell_level_cv_auc_sd": 0.006794573871230038,
+      "leave_one_patient_out_auc_mean": 0.5093983333333332,
+      "leave_one_patient_out_auc_sd": 0.10174931726093225
+    },
+    {
+      "scenario": "small true effect",
+      "patients": 5,
+      "cell_level_cv_auc_mean": 0.9357687777777777,
+      "cell_level_cv_auc_sd": 0.019157933385221718,
+      "leave_one_patient_out_auc_mean": 0.49416655555555566,
+      "leave_one_patient_out_auc_sd": 0.10765148291622242
+    },
+    {
+      "scenario": "small true effect",
+      "patients": 10,
+      "cell_level_cv_auc_mean": 0.8713032222222221,
+      "cell_level_cv_auc_sd": 0.025314339037659683,
+      "leave_one_patient_out_auc_mean": 0.5359908333333333,
+      "leave_one_patient_out_auc_sd": 0.08688969838133509
+    },
+    {
+      "scenario": "small true effect",
+      "patients": 20,
+      "cell_level_cv_auc_mean": 0.794101263888889,
+      "cell_level_cv_auc_sd": 0.027037341269799828,
+      "leave_one_patient_out_auc_mean": 0.5535290833333333,
+      "leave_one_patient_out_auc_sd": 0.06592396073874654
+    }
+  ]
+}

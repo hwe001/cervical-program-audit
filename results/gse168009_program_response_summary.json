@@ -1,0 +1,119 @@
+{
+  "dataset": "GSE168009",
+  "design": "pretreatment RNA-seq; no durable benefit (NDB) vs durable clinical benefit (DCB) after platinum-based CCRT",
+  "n_samples": 9,
+  "n_ndb": 4,
+  "n_dcb": 5,
+  "genes_found": [
+    "ACKR2",
+    "BBC3",
+    "CA9",
+    "CD8A",
+    "CD8B",
+    "CDKN1A",
+    "CDKN2A",
+    "COL1A1",
+    "COL1A2",
+    "DCN",
+    "DDB2",
+    "EPAS1",
+    "FAP",
+    "GADD45A",
+    "HIF1A",
+    "LAG3",
+    "LDHA",
+    "LUM",
+    "MDM2",
+    "PDGFRA",
+    "SLC2A1",
+    "TGFB1",
+    "TGFB2",
+    "TGFB3",
+    "TGFBR1",
+    "TGFBR2",
+    "TIGIT",
+    "TOX",
+    "VEGFA"
+  ],
+  "programs": {
+    "ACKR2_TGFb": {
+      "genes_found": [
+        "ACKR2",
+        "TGFB1",
+        "TGFB2",
+        "TGFB3",
+        "TGFBR1",
+        "TGFBR2"
+      ],
+      "mean_NDB_minus_DCB": 1.0937718238400254,
+      "mean_NDB": 0.6076510132444588,
+      "mean_DCB": -0.48612081059556644,
+      "exact_permutation_p_two_sided": 0.03937007874015748,
+      "direction": "higher_NDB",
+      "BH_q_across_five_programs": 0.09842519685039369
+    },
+    "MDM2_DDR": {
+      "genes_found": [
+        "MDM2",
+        "CDKN1A",
+        "GADD45A",
+        "DDB2",
+        "BBC3"
+      ],
+      "mean_NDB_minus_DCB": -0.3195612909526105,
+      "mean_NDB": -0.17753405052922827,
+      "mean_DCB": 0.14202724042338222,
+      "exact_permutation_p_two_sided": 0.4015748031496063,
+      "direction": "higher_DCB",
+      "BH_q_across_five_programs": 0.6692913385826772
+    },
+    "Tcell_senescence": {
+      "genes_found": [
+        "CD8A",
+        "CD8B",
+        "CDKN2A",
+        "TOX",
+        "TIGIT",
+        "LAG3"
+      ],
+      "mean_NDB_minus_DCB": -0.3745259210414769,
+      "mean_NDB": -0.20806995613415355,
+      "mean_DCB": 0.16645596490732337,
+      "exact_permutation_p_two_sided": 0.4881889763779528,
+      "direction": "higher_DCB",
+      "BH_q_across_five_programs": 0.610236220472441
+    },
+    "Hypoxia": {
+      "genes_found": [
+        "HIF1A",
+        "EPAS1",
+        "VEGFA",
+        "CA9",
+        "SLC2A1",
+        "LDHA"
+      ],
+      "mean_NDB_minus_DCB": 0.1601801518894848,
+      "mean_NDB": 0.08898897327193615,
+      "mean_DCB": -0.07119117861754867,
+      "exact_permutation_p_two_sided": 0.6141732283464567,
+      "direction": "higher_NDB",
+      "BH_q_across_five_programs": 0.6141732283464567
+    },
+    "CAF_ECM": {
+      "genes_found": [
+        "COL1A1",
+        "COL1A2",
+        "DCN",
+        "LUM",
+        "FAP",
+        "PDGFRA"
+      ],
+      "mean_NDB_minus_DCB": 1.4978437284595658,
+      "mean_NDB": 0.8321354046997587,
+      "mean_DCB": -0.6657083237598072,
+      "exact_permutation_p_two_sided": 0.031496062992125984,
+      "direction": "higher_NDB",
+      "BH_q_across_five_programs": 0.15748031496062992
+    }
+  }
+}

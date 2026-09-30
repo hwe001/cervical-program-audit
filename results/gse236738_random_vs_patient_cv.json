@@ -1,0 +1,17 @@
+{
+  "model": "logistic regression on 55 genes",
+  "random_cell_5fold_auc_mean": 0.8627099906754208,
+  "random_cell_5fold_auc_folds": [
+    0.8705696847807937,
+    0.8541089575622356,
+    0.8657119282560027,
+    0.8591063429013029,
+    0.8640530398767678
+  ],
+  "leave_one_patient_out_auc": {
+    "P1": 0.8833131408872192,
+    "P2": 0.7711458728580851,
+    "P3": 0.741339061953168
+  },
+  "leave_one_patient_out_auc_mean": 0.7985993585661575
+}

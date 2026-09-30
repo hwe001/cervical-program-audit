@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript (once published) and this repository."
+title: "cervical-program-audit: patient-aware audit of candidate resistance programs in cervical cancer"
+type: software
+license: MIT
+authors:
+  - family-names: Ho
+    given-names: Harvey
+    affiliation: "Rātā BioSim Lab, Auckland, New Zealand"
+    email: harvey@ratalab.nz
+# TODO: add co-authors, repository-code URL and the archived DOI once the repository is created and released.

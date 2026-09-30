@@ -1,0 +1,105 @@
+{
+  "n_samples": 21,
+  "complete_response": 12,
+  "non_complete_response": 9,
+  "genes_found": [
+    "BBC3",
+    "CA9",
+    "CD8A",
+    "CD8B",
+    "CDKN1A",
+    "CDKN2A",
+    "COL1A1",
+    "COL1A2",
+    "DCN",
+    "DDB2",
+    "EPAS1",
+    "FAP",
+    "GADD45A",
+    "HIF1A",
+    "LAG3",
+    "LDHA",
+    "LUM",
+    "MDM2",
+    "PDGFRA",
+    "SLC2A1",
+    "TGFB1",
+    "TGFB2",
+    "TGFB3",
+    "TGFBR1",
+    "TGFBR2",
+    "TIGIT",
+    "TOX",
+    "VEGFA"
+  ],
+  "programs": {
+    "ACKR2_TGFb": {
+      "genes_found": [
+        "TGFB1",
+        "TGFB2",
+        "TGFB3",
+        "TGFBR1",
+        "TGFBR2"
+      ],
+      "mean_difference_NCR_minus_CR": -0.43171992286098637,
+      "mean_CR": 0.18502282408327866,
+      "mean_NCR": -0.2466970987777077,
+      "exact_permutation_p": 0.09657368566092042
+    },
+    "MDM2_DDR": {
+      "genes_found": [
+        "MDM2",
+        "CDKN1A",
+        "GADD45A",
+        "DDB2",
+        "BBC3"
+      ],
+      "mean_difference_NCR_minus_CR": 0.45482952325260384,
+      "mean_CR": -0.19492693853683138,
+      "mean_NCR": 0.2599025847157725,
+      "exact_permutation_p": 0.056523469793931226
+    },
+    "Tcell_senescence": {
+      "genes_found": [
+        "CD8A",
+        "CD8B",
+        "CDKN2A",
+        "TOX",
+        "TIGIT",
+        "LAG3"
+      ],
+      "mean_difference_NCR_minus_CR": -0.03423225830212528,
+      "mean_CR": 0.014670967843767771,
+      "mean_NCR": -0.019561290458357507,
+      "exact_permutation_p": 0.9099312423664058
+    },
+    "Hypoxia": {
+      "genes_found": [
+        "HIF1A",
+        "EPAS1",
+        "VEGFA",
+        "CA9",
+        "SLC2A1",
+        "LDHA"
+      ],
+      "mean_difference_NCR_minus_CR": 0.05479098089226641,
+      "mean_CR": -0.023481848953829862,
+      "mean_NCR": 0.03130913193843655,
+      "exact_permutation_p": 0.7977212338950298
+    },
+    "CAF_ECM": {
+      "genes_found": [
+        "COL1A1",
+        "COL1A2",
+        "DCN",
+        "LUM",
+        "FAP",
+        "PDGFRA"
+      ],
+      "mean_difference_NCR_minus_CR": -0.8694658199037675,
+      "mean_CR": 0.37262820853018574,
+      "mean_NCR": -0.4968376113735818,
+      "exact_permutation_p": 0.02562165950512195
+    }
+  }
+}

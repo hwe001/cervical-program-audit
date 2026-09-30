@@ -1,0 +1,141 @@
+{
+  "GSE63514_progression": [
+    {
+      "program": "ACKR2_TGFb",
+      "rho": 0.22215390406258073,
+      "p": 0.011725315947445691,
+      "n": 128
+    },
+    {
+      "program": "MDM2_DDR",
+      "rho": 0.22771937089987854,
+      "p": 0.00973409496792199,
+      "n": 128
+    },
+    {
+      "program": "Tcell_senescence",
+      "rho": 0.48041862783693084,
+      "p": 9.528237776624679e-09,
+      "n": 128
+    },
+    {
+      "program": "Hypoxia",
+      "rho": 0.6386637937879198,
+      "p": 5.036281853956352e-16,
+      "n": 128
+    },
+    {
+      "program": "CAF_ECM",
+      "rho": 0.15783334493765833,
+      "p": 0.07518508283837386,
+      "n": 128
+    }
+  ],
+  "GSE6213_treatment": [
+    {
+      "modality": "carbon-ion radiotherapy",
+      "program": "ACKR2_TGFb",
+      "n_pre": 2,
+      "n_during": 20,
+      "standardized_delta": -0.2319527328962675
+    },
+    {
+      "modality": "carbon-ion radiotherapy",
+      "program": "MDM2_DDR",
+      "n_pre": 2,
+      "n_during": 20,
+      "standardized_delta": -0.25057917962135173
+    },
+    {
+      "modality": "carbon-ion radiotherapy",
+      "program": "Tcell_senescence",
+      "n_pre": 2,
+      "n_during": 20,
+      "standardized_delta": 1.0048904184751655
+    },
+    {
+      "modality": "carbon-ion radiotherapy",
+      "program": "Hypoxia",
+      "n_pre": 2,
+      "n_during": 20,
+      "standardized_delta": 0.21276095425148184
+    },
+    {
+      "modality": "carbon-ion radiotherapy",
+      "program": "CAF_ECM",
+      "n_pre": 2,
+      "n_during": 20,
+      "standardized_delta": -0.6173503026656378
+    },
+    {
+      "modality": "chemoradiotherapy",
+      "program": "ACKR2_TGFb",
+      "n_pre": 20,
+      "n_during": 18,
+      "standardized_delta": 0.5401615574513529
+    },
+    {
+      "modality": "chemoradiotherapy",
+      "program": "MDM2_DDR",
+      "n_pre": 20,
+      "n_during": 18,
+      "standardized_delta": -0.30212070574515226
+    },
+    {
+      "modality": "chemoradiotherapy",
+      "program": "Tcell_senescence",
+      "n_pre": 20,
+      "n_during": 18,
+      "standardized_delta": -0.6374807062843902
+    },
+    {
+      "modality": "chemoradiotherapy",
+      "program": "Hypoxia",
+      "n_pre": 20,
+      "n_during": 18,
+      "standardized_delta": -0.19618794951237167
+    },
+    {
+      "modality": "chemoradiotherapy",
+      "program": "CAF_ECM",
+      "n_pre": 20,
+      "n_during": 18,
+      "standardized_delta": 0.1892491950232034
+    },
+    {
+      "modality": "radiotherapy alone",
+      "program": "ACKR2_TGFb",
+      "n_pre": 18,
+      "n_during": 10,
+      "standardized_delta": -0.5297863244369043
+    },
+    {
+      "modality": "radiotherapy alone",
+      "program": "MDM2_DDR",
+      "n_pre": 18,
+      "n_during": 10,
+      "standardized_delta": 0.633941660090145
+    },
+    {
+      "modality": "radiotherapy alone",
+      "program": "Tcell_senescence",
+      "n_pre": 18,
+      "n_during": 10,
+      "standardized_delta": -0.37915137478934635
+    },
+    {
+      "modality": "radiotherapy alone",
+      "program": "Hypoxia",
+      "n_pre": 18,
+      "n_during": 10,
+      "standardized_delta": -0.40911359927266566
+    },
+    {
+      "modality": "radiotherapy alone",
+      "program": "CAF_ECM",
+      "n_pre": 18,
+      "n_during": 10,
+      "standardized_delta": -0.8061497635001298
+    }
+  ]
+}

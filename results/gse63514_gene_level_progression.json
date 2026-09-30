@@ -1,0 +1,335 @@
+{
+  "gene_level": [
+    {
+      "gene": "ACKR2",
+      "program": "ACKR2_TGFb",
+      "in_platform": true,
+      "rho": -0.16079257307630612,
+      "p": 0.06981156522694017,
+      "n": 128,
+      "q_bh_across_29_genes": 0.12376176468468711,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "BBC3",
+      "program": "MDM2_DDR",
+      "in_platform": false,
+      "rho": null,
+      "p": null,
+      "n": 128
+    },
+    {
+      "gene": "CA9",
+      "program": "Hypoxia",
+      "in_platform": true,
+      "rho": 0.6498182600918486,
+      "p": 1.053270551102649e-16,
+      "n": 128,
+      "q_bh_across_29_genes": 2.9491575430874174e-15,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "CD8A",
+      "program": "Tcell_senescence",
+      "in_platform": true,
+      "rho": 0.12942946133250646,
+      "p": 0.14536646574866463,
+      "n": 128,
+      "q_bh_across_29_genes": 0.19382195433155283,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "CD8B",
+      "program": "Tcell_senescence",
+      "in_platform": true,
+      "rho": 0.02190887790919337,
+      "p": 0.8060936461230981,
+      "n": 128,
+      "q_bh_across_29_genes": 0.8060936461230981,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "CDKN1A",
+      "program": "MDM2_DDR",
+      "in_platform": true,
+      "rho": 0.15785687756699152,
+      "p": 0.07514107141570288,
+      "n": 128,
+      "q_bh_across_29_genes": 0.12376176468468711,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "CDKN2A",
+      "program": "Tcell_senescence",
+      "in_platform": true,
+      "rho": 0.5179237558366911,
+      "p": 3.8269331753809455e-10,
+      "n": 128,
+      "q_bh_across_29_genes": 5.357706445533324e-09,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "COL1A1",
+      "program": "CAF_ECM",
+      "in_platform": true,
+      "rho": 0.2097698578759932,
+      "p": 0.017477842890184055,
+      "n": 128,
+      "q_bh_across_29_genes": 0.04522597007027717,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "COL1A2",
+      "program": "CAF_ECM",
+      "in_platform": true,
+      "rho": 0.20924625687332987,
+      "p": 0.017767345384751745,
+      "n": 128,
+      "q_bh_across_29_genes": 0.04522597007027717,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "DCN",
+      "program": "CAF_ECM",
+      "in_platform": true,
+      "rho": -0.22841946662254073,
+      "p": 0.00950600835235036,
+      "n": 128,
+      "q_bh_across_29_genes": 0.033271029233226265,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "DDB2",
+      "program": "MDM2_DDR",
+      "in_platform": true,
+      "rho": 0.1514030539723661,
+      "p": 0.08801262102208648,
+      "n": 128,
+      "q_bh_across_29_genes": 0.1369085215899123,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "EPAS1",
+      "program": "Hypoxia",
+      "in_platform": true,
+      "rho": 0.4863488504288929,
+      "p": 5.879082955273371e-09,
+      "n": 128,
+      "q_bh_across_29_genes": 4.1153580686913595e-08,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "FAP",
+      "program": "CAF_ECM",
+      "in_platform": true,
+      "rho": 0.5018803857887937,
+      "p": 1.5877444144118546e-09,
+      "n": 128,
+      "q_bh_across_29_genes": 1.4818947867843978e-08,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "GADD45A",
+      "program": "MDM2_DDR",
+      "in_platform": true,
+      "rho": 0.14712599859106007,
+      "p": 0.09747030877114285,
+      "n": 128,
+      "q_bh_across_29_genes": 0.14364045503115788,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "HIF1A",
+      "program": "Hypoxia",
+      "in_platform": true,
+      "rho": 0.15857190803592922,
+      "p": 0.0738136805736874,
+      "n": 128,
+      "q_bh_across_29_genes": 0.12376176468468711,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "LAG3",
+      "program": "Tcell_senescence",
+      "in_platform": true,
+      "rho": -0.13430659876180864,
+      "p": 0.13067222126297523,
+      "n": 128,
+      "q_bh_across_29_genes": 0.18294110976816533,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "LDHA",
+      "program": "Hypoxia",
+      "in_platform": true,
+      "rho": 0.0460827713917056,
+      "p": 0.6054863244440468,
+      "n": 128,
+      "q_bh_across_29_genes": 0.6781446833773324,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "LUM",
+      "program": "CAF_ECM",
+      "in_platform": true,
+      "rho": 0.1734178287135588,
+      "p": 0.05027566506943084,
+      "n": 128,
+      "q_bh_across_29_genes": 0.10828604784185104,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "MDM2",
+      "program": "MDM2_DDR",
+      "in_platform": true,
+      "rho": 0.2926517783874637,
+      "p": 0.0008017195978077965,
+      "n": 128,
+      "q_bh_across_29_genes": 0.003206878391231186,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "PDGFRA",
+      "program": "CAF_ECM",
+      "in_platform": true,
+      "rho": -0.04639457873037028,
+      "p": 0.6030455961020397,
+      "n": 128,
+      "q_bh_across_29_genes": 0.6781446833773324,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "SLC2A1",
+      "program": "Hypoxia",
+      "in_platform": true,
+      "rho": 0.3419055715818157,
+      "p": 7.815334637414125e-05,
+      "n": 128,
+      "q_bh_across_29_genes": 0.0003647156164126592,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "TGFB1",
+      "program": "ACKR2_TGFb",
+      "in_platform": true,
+      "rho": 0.048265422762358325,
+      "p": 0.5884940357940452,
+      "n": 128,
+      "q_bh_across_29_genes": 0.6781446833773324,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "TGFB2",
+      "program": "ACKR2_TGFb",
+      "in_platform": true,
+      "rho": 0.18669611481480727,
+      "p": 0.03485020070392747,
+      "n": 128,
+      "q_bh_across_29_genes": 0.08131713497583076,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "TGFB3",
+      "program": "ACKR2_TGFb",
+      "in_platform": true,
+      "rho": 0.15988068368964528,
+      "p": 0.07143315538629885,
+      "n": 128,
+      "q_bh_across_29_genes": 0.12376176468468711,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "TGFBR1",
+      "program": "ACKR2_TGFb",
+      "in_platform": true,
+      "rho": 0.21451168268662957,
+      "p": 0.015036861221686399,
+      "n": 128,
+      "q_bh_across_29_genes": 0.04522597007027717,
+      "significant_at_q0.05": true
+    },
+    {
+      "gene": "TGFBR2",
+      "program": "ACKR2_TGFb",
+      "in_platform": true,
+      "rho": 0.11105636098062384,
+      "p": 0.2120317290625542,
+      "n": 128,
+      "q_bh_across_29_genes": 0.2698585642614326,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "TIGIT",
+      "program": "Tcell_senescence",
+      "in_platform": true,
+      "rho": 0.02473867658650862,
+      "p": 0.7816396087762766,
+      "n": 128,
+      "q_bh_across_29_genes": 0.8060936461230981,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "TOX",
+      "program": "Tcell_senescence",
+      "in_platform": true,
+      "rho": 0.03371637467711793,
+      "p": 0.7055623244638363,
+      "n": 128,
+      "q_bh_across_29_genes": 0.7598363494225929,
+      "significant_at_q0.05": false
+    },
+    {
+      "gene": "VEGFA",
+      "program": "Hypoxia",
+      "in_platform": true,
+      "rho": 0.4750943704502982,
+      "p": 1.4585512286681321e-08,
+      "n": 128,
+      "q_bh_across_29_genes": 8.16788688054154e-08,
+      "significant_at_q0.05": true
+    }
+  ],
+  "program_level_bh_corrected": [
+    {
+      "program": "ACKR2_TGFb",
+      "rho": 0.22215390406258073,
+      "p": 0.011725315947445691,
+      "n": 128,
+      "q_bh_across_5_programs": 0.014656644934307114,
+      "significant_at_q0.05": true
+    },
+    {
+      "program": "MDM2_DDR",
+      "rho": 0.22771937089987854,
+      "p": 0.00973409496792199,
+      "n": 128,
+      "q_bh_across_5_programs": 0.014656644934307114,
+      "significant_at_q0.05": true
+    },
+    {
+      "program": "Tcell_senescence",
+      "rho": 0.48041862783693084,
+      "p": 9.528237776624679e-09,
+      "n": 128,
+      "q_bh_across_5_programs": 2.3820594441561695e-08,
+      "significant_at_q0.05": true
+    },
+    {
+      "program": "Hypoxia",
+      "rho": 0.6386637937879198,
+      "p": 5.036281853956352e-16,
+      "n": 128,
+      "q_bh_across_5_programs": 2.518140926978176e-15,
+      "significant_at_q0.05": true
+    },
+    {
+      "program": "CAF_ECM",
+      "rho": 0.15783334493765833,
+      "p": 0.07518508283837386,
+      "n": 128,
+      "q_bh_across_5_programs": 0.07518508283837386,
+      "significant_at_q0.05": false
+    }
+  ],
+  "note": "Gene-level rho/p computed independently per gene (not inherited from the program mean), to give the pharmacological ranking gene-specific cross-cohort evidence instead of one shared program-level value. Genes not on the GPL570 platform (in_platform=false) have no rho/p and should not be silently treated as non-significant. GSE6213 is deliberately not BH-corrected or given formal p-values here: with pretreatment arms as small as n=2 (carbon-ion) and n=18-20 for the other two modalities, only directional consistency is reported for that cohort (sections 3.2/3.4), not formal significance."
+}
