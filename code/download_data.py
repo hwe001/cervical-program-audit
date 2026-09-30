@@ -72,6 +72,14 @@ if not clin.exists():
     with urlopen('https://api.gdc.cancer.gov/cases?filters=' + flt + '&fields=' + fields + '&format=json&size=1000', timeout=180) as r:
         clin.write_text(json.dumps(json.load(r), indent=2), encoding='utf-8')
 
+# TCGA-CESC clinical covariates (age, FIGO stage, histology) from the GDC API
+cov = W / 'data_tcga_cesc' / 'clinical_covariates.json'
+if not cov.exists():
+    flt = '%7B%22op%22:%22in%22,%22content%22:%7B%22field%22:%22project.project_id%22,%22value%22:%5B%22TCGA-CESC%22%5D%7D%7D'
+    fields = 'submitter_id,demographic.age_at_index,diagnoses.figo_stage,diagnoses.ajcc_clinical_stage,diagnoses.primary_diagnosis,diagnoses.tumor_grade'
+    with urlopen('https://api.gdc.cancer.gov/cases?filters=' + flt + '&fields=' + fields + '&format=json&size=1000', timeout=180) as r:
+        cov.write_text(json.dumps(json.load(r)), encoding='utf-8')
+
 # gene symbol -> Ensembl ID map for the 29 program genes (used for RNA-seq cohorts); shipped with the repository
 shutil.copy(REPO / 'code' / 'symbol2ensg.json', W / 'data_gse297038' / 'symbol2ensg.json')
 print('done. GSE3578, GSE208654 and the Visium data are not needed for the audit.')
