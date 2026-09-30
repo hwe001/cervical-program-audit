@@ -1,8 +1,10 @@
 # cervical-program-audit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23070746.svg)](https://doi.org/10.5281/zenodo.23070746)
+
 Code and aggregate results for a patient-aware audit of five candidate therapeutic-resistance programs in cervical cancer (ACKR2/TGF-beta, MDM2/DNA-damage response, T-cell senescence, hypoxia, CAF/ECM). The audit asks three separate questions of each program in cohorts chosen for that question: does it change with **treatment exposure**, does it track **tumor progression**, and does it separate **clinical outcome**. It also quantifies how cell-level validation overstates performance when patients are few.
 
-Manuscript (in preparation): *Cell-level validation overstates computational resistance biomarkers: a patient-aware audit in cervical cancer.* [Add DOI / preprint link.]
+Manuscript (in preparation): *Cell-level validation overstates computational resistance biomarkers: a patient-aware audit in cervical cancer.* [Add preprint link.]
 
 ## Main results (all reproducible from `results/`)
 

@@ -9,4 +9,8 @@ authors:
     affiliation: "Rātā BioSim Lab, Auckland, New Zealand"
     email: harvey@ratalab.nz
 repository-code: "https://github.com/hwe001/cervical-program-audit"
-# TODO: add co-authors and the archived DOI once a release is archived.
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23070746
+    description: "Archived version v1.0.1 on Zenodo"
+# TODO: add co-authors.
