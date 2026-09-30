@@ -31,6 +31,7 @@ FILES = {
     'external_public/GSE168009/GSE168009_Raw_count.txt.gz': GEO + 'series/GSE168nnn/GSE168009/suppl/GSE168009_Raw_count.txt.gz',
     'GSE224327_RAW.tar': GEO + 'series/GSE224nnn/GSE224327/suppl/GSE224327_RAW.tar',
     'data_tcga_cesc/TCGA-CESC.star_tpm.tsv.gz': 'https://gdc.xenahubs.net/download/TCGA-CESC.star_tpm.tsv.gz',
+    'data_tcga_cesc/surv.tsv.gz': 'https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-CESC.survival.tsv.gz',
 }
 
 
@@ -55,6 +56,13 @@ if not mat.exists():
     mat.mkdir(parents=True)
     with tarfile.open(W / 'GSE236738_RAW.tar') as t:
         t.extractall(mat)
+
+# GSE224327: unpack the per-sample matrices used for the second-cohort leakage demonstration
+mat2 = W / 'data_gse224327' / 'extracted'
+if not mat2.exists():
+    mat2.mkdir(parents=True)
+    with tarfile.open(W / 'GSE224327_RAW.tar') as t2:
+        t2.extractall(mat2)
 
 # TCGA-CESC clinical fields from the GDC API
 clin = W / 'data_tcga_cesc' / 'clinical.json'
