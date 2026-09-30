@@ -13,3 +13,9 @@ The merged count file `GSE297038_17pairs_counts_merged.tsv.gz` has 34 columns bu
 
 ## Not included
 Visium and Stereo-seq analyses, the pharmacological triage composite score, and GSE3578, GSE190075, GSE52903, GSE224327: not used for any claim in the manuscript.
+
+## TCGA-CESC survival (corrected 2026-10-01)
+The first analysis took follow-up times from a partial GDC clinical pull: only 132 of 304 patients had a time (mostly patients who had died), so it wrongly suggested no survival association. `analyze_tcga_survival.py` uses the Xena survival table (291 primary tumors, 72 deaths). Continuous Cox per SD: hypoxia HR 1.87 (1.40-2.49), T-cell/CDKN2A HR 0.71 (0.57-0.88). `analyze_tcga_programs.py` is obsolete and was removed from the repository.
+
+## T-cell/CDKN2A program
+The program mixes CDKN2A (p16) with T-cell genes. Stage association: CDKN2A alone rho 0.52, remaining T-cell genes 0.18. Treatment effect in GSE297038: CDKN2A alone -1.39 (11/12 fell), T-cell genes alone -0.97 (9/12 fell, p=0.023).

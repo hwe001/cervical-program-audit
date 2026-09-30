@@ -1,0 +1,138 @@
+{
+  "split_GSE63514_stage": {
+    "CDKN2A_only": {
+      "rho": 0.5179237558366911,
+      "p": 3.8269331753809455e-10
+    },
+    "T_cell_genes_without_CDKN2A": {
+      "rho": 0.1764358884255395,
+      "p": 0.046346909262055626
+    },
+    "T_cell_senescence_full": {
+      "rho": 0.37862235649891446,
+      "p": 1.049048556551135e-05
+    }
+  },
+  "split_GSE297038_paired": {
+    "CDKN2A_only": {
+      "mean_delta": -1.387088654809444,
+      "n_up": 1,
+      "n_pairs": 12,
+      "exact_signflip_p": 0.001953125
+    },
+    "T_cell_genes_without_CDKN2A": {
+      "mean_delta": -0.9712973484831783,
+      "n_up": 3,
+      "n_pairs": 12,
+      "exact_signflip_p": 0.02294921875
+    }
+  },
+  "GSE63514_stage_by_dissection_counts": {
+    "('laser captured', 0)": 24,
+    "('laser captured', 1)": 14,
+    "('laser captured', 2)": 22,
+    "('laser captured', 3)": 40,
+    "('laser captured', 4)": 20,
+    "('whole section', 4)": 8
+  },
+  "GSE63514_by_dissection": {
+    "ACKR2_TGFb": {
+      "laser captured": {
+        "n": 120,
+        "rho": 0.155751030405669,
+        "p": 0.08937729529680541
+      },
+      "adjusted_rank_regression_stage_beta": 0.1728580820192606,
+      "adjusted_se": 0.0973111780640943
+    },
+    "MDM2_DDR": {
+      "laser captured": {
+        "n": 120,
+        "rho": 0.2880113662282473,
+        "p": 0.0014234339125836803
+      },
+      "adjusted_rank_regression_stage_beta": 0.3002597246270655,
+      "adjusted_se": 0.09450513178980599
+    },
+    "Tcell_senescence": {
+      "laser captured": {
+        "n": 120,
+        "rho": 0.4427180478491625,
+        "p": 4.1239569860590964e-07
+      },
+      "adjusted_rank_regression_stage_beta": 0.46618718691838473,
+      "adjusted_se": 0.08916199065305196
+    },
+    "Hypoxia": {
+      "laser captured": {
+        "n": 120,
+        "rho": 0.5981972614478409,
+        "p": 5.40649348971983e-13
+      },
+      "adjusted_rank_regression_stage_beta": 0.6220728895637847,
+      "adjusted_se": 0.07842046702961025
+    },
+    "CAF_ECM": {
+      "laser captured": {
+        "n": 120,
+        "rho": 0.10926320333639174,
+        "p": 0.23485280110893925
+      },
+      "adjusted_rank_regression_stage_beta": 0.12554282910025139,
+      "adjusted_se": 0.09788145708291233
+    }
+  },
+  "TCGA_cox": {
+    "n_patients": 120,
+    "events": 72,
+    "dropped_non_primary_samples": 5,
+    "dropped_duplicate_patient_samples": 0,
+    "programs": {
+      "ACKR2_TGFb": {
+        "HR_per_SD": 1.2696856750032441,
+        "CI95": [
+          0.9899295705816634,
+          1.628501421935708
+        ],
+        "p": 0.06007272983056886,
+        "BH_q": 0.15018182457642215
+      },
+      "MDM2_DDR": {
+        "HR_per_SD": 0.8708447918685139,
+        "CI95": [
+          0.6885916742830781,
+          1.1013357841046902
+        ],
+        "p": 0.24837880530262113,
+        "BH_q": 0.24837880530262113
+      },
+      "Tcell_senescence": {
+        "HR_per_SD": 0.8458988824745917,
+        "CI95": [
+          0.6827478659342782,
+          1.0480368450403066
+        ],
+        "p": 0.12581915190539467,
+        "BH_q": 0.1887788477008206
+      },
+      "Hypoxia": {
+        "HR_per_SD": 1.5263714747331179,
+        "CI95": [
+          1.1799310022234413,
+          1.9745306077124003
+        ],
+        "p": 0.0012835158226535382,
+        "BH_q": 0.006417579113267691
+      },
+      "CAF_ECM": {
+        "HR_per_SD": 1.1966643962880428,
+        "CI95": [
+          0.9365786241071348,
+          1.5289754009799177
+        ],
+        "p": 0.1510230781606565,
+        "BH_q": 0.1887788477008206
+      }
+    }
+  }
+}

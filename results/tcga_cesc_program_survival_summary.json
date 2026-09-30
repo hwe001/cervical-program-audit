@@ -1,0 +1,121 @@
+{
+  "n_patients": 291,
+  "events": 72,
+  "median_follow_up_days_all": 715.0,
+  "programs": {
+    "ACKR2_TGFb": {
+      "genes_found": [
+        "ACKR2",
+        "TGFB1",
+        "TGFB2",
+        "TGFB3",
+        "TGFBR1",
+        "TGFBR2"
+      ],
+      "logrank_median_split": {
+        "chi2": 0.4537526237127865,
+        "p_value": 0.5005582593450755,
+        "observed_minus_expected_high": 2.853984072581056
+      },
+      "cox_HR_per_SD": 1.2130825425203655,
+      "cox_CI95": [
+        0.9501370163575694,
+        1.5487968889045705
+      ],
+      "cox_p": 0.12123045933417259,
+      "logrank_BH_q": 0.8342637655751258,
+      "cox_BH_q": 0.20205076555695434
+    },
+    "MDM2_DDR": {
+      "genes_found": [
+        "MDM2",
+        "CDKN1A",
+        "GADD45A",
+        "DDB2",
+        "BBC3"
+      ],
+      "logrank_median_split": {
+        "chi2": 0.019590526163380365,
+        "p_value": 0.8886867269373704,
+        "observed_minus_expected_high": -0.5925716738657519
+      },
+      "cox_HR_per_SD": 1.0098563112994294,
+      "cox_CI95": [
+        0.798510034107642,
+        1.2771408321887365
+      ],
+      "cox_p": 0.9347532592598382,
+      "logrank_BH_q": 0.889522309836598,
+      "cox_BH_q": 0.9347532592598382
+    },
+    "Tcell_senescence": {
+      "genes_found": [
+        "CD8A",
+        "CD8B",
+        "CDKN2A",
+        "TOX",
+        "TIGIT",
+        "LAG3"
+      ],
+      "logrank_median_split": {
+        "chi2": 2.1611168314629126,
+        "p_value": 0.14154178080768917,
+        "observed_minus_expected_high": -6.200085494159178
+      },
+      "cox_HR_per_SD": 0.7067783248223809,
+      "cox_CI95": [
+        0.565181756848318,
+        0.8838494774218182
+      ],
+      "cox_p": 0.0023472096546168306,
+      "logrank_BH_q": 0.3538544520192229,
+      "cox_BH_q": 0.005868024136542077
+    },
+    "Hypoxia": {
+      "genes_found": [
+        "HIF1A",
+        "EPAS1",
+        "VEGFA",
+        "CA9",
+        "SLC2A1",
+        "LDHA"
+      ],
+      "logrank_median_split": {
+        "chi2": 4.785181221169657,
+        "p_value": 0.028705627006046987,
+        "observed_minus_expected_high": 9.247040906996068
+      },
+      "cox_HR_per_SD": 1.8652580265702594,
+      "cox_CI95": [
+        1.3967203180952574,
+        2.4909693519955622
+      ],
+      "cox_p": 2.4017661614659855e-05,
+      "logrank_BH_q": 0.14352813503023493,
+      "cox_BH_q": 0.00012008830807329927
+    },
+    "CAF_ECM": {
+      "genes_found": [
+        "COL1A1",
+        "COL1A2",
+        "DCN",
+        "LUM",
+        "FAP",
+        "PDGFRA"
+      ],
+      "logrank_median_split": {
+        "chi2": 0.019295622077264436,
+        "p_value": 0.889522309836598,
+        "observed_minus_expected_high": 0.5882887902703255
+      },
+      "cox_HR_per_SD": 1.15798491745067,
+      "cox_CI95": [
+        0.9081908125133461,
+        1.4764838518155894
+      ],
+      "cox_p": 0.23674014271152877,
+      "logrank_BH_q": 0.889522309836598,
+      "cox_BH_q": 0.29592517838941096
+    }
+  }
+}

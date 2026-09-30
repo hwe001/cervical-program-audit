@@ -1,0 +1,150 @@
+{
+  "params": {
+    "genes": 55,
+    "cells_per_sample": 300,
+    "sample_offset_sd": 0.5,
+    "reps": 20
+  },
+  "results": [
+    {
+      "effect_sd_on_10_genes": 0.0,
+      "patients": 3,
+      "lopo_auc_mean": 0.4977437037037036,
+      "lopo_auc_sd": 0.15109846831915624,
+      "fraction_auc_above_0.6": 0.2
+    },
+    {
+      "effect_sd_on_10_genes": 0.0,
+      "patients": 5,
+      "lopo_auc_mean": 0.5254256666666667,
+      "lopo_auc_sd": 0.11480859769171586,
+      "fraction_auc_above_0.6": 0.2
+    },
+    {
+      "effect_sd_on_10_genes": 0.0,
+      "patients": 10,
+      "lopo_auc_mean": 0.49869038888888884,
+      "lopo_auc_sd": 0.06661384035764972,
+      "fraction_auc_above_0.6": 0.05
+    },
+    {
+      "effect_sd_on_10_genes": 0.0,
+      "patients": 20,
+      "lopo_auc_mean": 0.5241529166666666,
+      "lopo_auc_sd": 0.049201719297683036,
+      "fraction_auc_above_0.6": 0.0
+    },
+    {
+      "effect_sd_on_10_genes": 0.15,
+      "patients": 3,
+      "lopo_auc_mean": 0.5475733333333334,
+      "lopo_auc_sd": 0.15561639197319302,
+      "fraction_auc_above_0.6": 0.4
+    },
+    {
+      "effect_sd_on_10_genes": 0.15,
+      "patients": 5,
+      "lopo_auc_mean": 0.5064616666666667,
+      "lopo_auc_sd": 0.11401603598904113,
+      "fraction_auc_above_0.6": 0.25
+    },
+    {
+      "effect_sd_on_10_genes": 0.15,
+      "patients": 10,
+      "lopo_auc_mean": 0.5104876666666667,
+      "lopo_auc_sd": 0.08152505096549113,
+      "fraction_auc_above_0.6": 0.15
+    },
+    {
+      "effect_sd_on_10_genes": 0.15,
+      "patients": 20,
+      "lopo_auc_mean": 0.5280353333333332,
+      "lopo_auc_sd": 0.06256045414839226,
+      "fraction_auc_above_0.6": 0.05
+    },
+    {
+      "effect_sd_on_10_genes": 0.3,
+      "patients": 3,
+      "lopo_auc_mean": 0.56171,
+      "lopo_auc_sd": 0.13603293440032746,
+      "fraction_auc_above_0.6": 0.45
+    },
+    {
+      "effect_sd_on_10_genes": 0.3,
+      "patients": 5,
+      "lopo_auc_mean": 0.5751224444444445,
+      "lopo_auc_sd": 0.09387360843413045,
+      "fraction_auc_above_0.6": 0.4
+    },
+    {
+      "effect_sd_on_10_genes": 0.3,
+      "patients": 10,
+      "lopo_auc_mean": 0.5960590555555555,
+      "lopo_auc_sd": 0.08044364403321493,
+      "fraction_auc_above_0.6": 0.5
+    },
+    {
+      "effect_sd_on_10_genes": 0.3,
+      "patients": 20,
+      "lopo_auc_mean": 0.6335235277777778,
+      "lopo_auc_sd": 0.045987735483333285,
+      "fraction_auc_above_0.6": 0.75
+    },
+    {
+      "effect_sd_on_10_genes": 0.5,
+      "patients": 3,
+      "lopo_auc_mean": 0.6207466666666667,
+      "lopo_auc_sd": 0.09610949849785357,
+      "fraction_auc_above_0.6": 0.65
+    },
+    {
+      "effect_sd_on_10_genes": 0.5,
+      "patients": 5,
+      "lopo_auc_mean": 0.6787283333333333,
+      "lopo_auc_sd": 0.06589398396217525,
+      "fraction_auc_above_0.6": 0.9
+    },
+    {
+      "effect_sd_on_10_genes": 0.5,
+      "patients": 10,
+      "lopo_auc_mean": 0.7445762222222221,
+      "lopo_auc_sd": 0.06631714716756476,
+      "fraction_auc_above_0.6": 0.95
+    },
+    {
+      "effect_sd_on_10_genes": 0.5,
+      "patients": 20,
+      "lopo_auc_mean": 0.7907866666666667,
+      "lopo_auc_sd": 0.035308927802493936,
+      "fraction_auc_above_0.6": 1.0
+    },
+    {
+      "effect_sd_on_10_genes": 1.0,
+      "patients": 3,
+      "lopo_auc_mean": 0.8851466666666667,
+      "lopo_auc_sd": 0.053594988254320915,
+      "fraction_auc_above_0.6": 1.0
+    },
+    {
+      "effect_sd_on_10_genes": 1.0,
+      "patients": 5,
+      "lopo_auc_mean": 0.9421123333333334,
+      "lopo_auc_sd": 0.03502999389570793,
+      "fraction_auc_above_0.6": 1.0
+    },
+    {
+      "effect_sd_on_10_genes": 1.0,
+      "patients": 10,
+      "lopo_auc_mean": 0.9597206111111112,
+      "lopo_auc_sd": 0.012622973229198534,
+      "fraction_auc_above_0.6": 1.0
+    },
+    {
+      "effect_sd_on_10_genes": 1.0,
+      "patients": 20,
+      "lopo_auc_mean": 0.9637245833333333,
+      "lopo_auc_sd": 0.008439046317153105,
+      "fraction_auc_above_0.6": 1.0
+    }
+  ]
+}

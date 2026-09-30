@@ -30,10 +30,10 @@ for cohort, path, k_eff, k_p, endpoint, n, direction, role in [
 for r in json.load(open(W / 'validation' / 'gse63514_gene_level_progression.json'))['program_level_bh_corrected']:
     add('GSE63514', 'ordinal normal/CIN/cancer (Spearman rho)', '128', 'rho', r['program'], r['rho'], r['p'], r['q_bh_across_5_programs'], 'tumour progression')
 
-t = json.load(open(W / 'analysis_tcga_cesc' / 'program_outcome_summary.json'))['programs']
-q = multipletests([t[p]['logrank']['p_value'] for p in P], method='fdr_bh')[1]
-for p, qq in zip(P, q):
-    add('TCGA-CESC', 'OS median-split log-rank', '134 (74 events)', 'high vs low', p, None, t[p]['logrank']['p_value'], qq, 'descriptive')
+t = json.load(open(W / 'analysis_tcga_cesc' / 'program_survival_summary.json'))
+for p in P:
+    v = t['programs'][p]
+    add('TCGA-CESC', 'overall survival, continuous Cox per SD (mixed stage and treatment)', '%d (%d deaths)' % (t['n_patients'], t['events']), 'HR per SD', p, v['cox_HR_per_SD'], v['cox_p'], v['cox_BH_q'], 'prognosis (not treatment-specific)')
 
 s = json.load(open(W / 'analysis_gse297038' / 'summary.json'))['primary_clean_pairs']['programs']
 for p in P:

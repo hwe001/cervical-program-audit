@@ -10,8 +10,9 @@ Manuscript (in preparation): *Cell-level validation overstates computational res
 |---|---|---|
 | Treatment exposure | GSE236738 (3 patients, single cell), GSE297038 (12 evaluable pairs, RNA-seq) | MDM2/DDR up in 3/3 patients and 12/12 pairs (p53 target genes); T-cell senescence down in 3/3 and 11/12 |
 | Progression | GSE63514 (n=128) | hypoxia rho 0.64, T-cell senescence 0.48 (q < 1e-7) |
-| Clinical outcome | GSE168009 (5 vs 4), GSE56363 (12 vs 9), GSE70035 (6 vs 6), TCGA-CESC (134) | no program significant after correction (lowest q = 0.20 over the 15 outcome tests); signs conflict between the two CCRT cohorts |
-| Leakage | simulation and GSE236738 | with batch offsets and no treatment effect, random cell-level CV gives AUC 0.97 (3 patients) vs 0.49 for leave-one-patient-out; in GSE236738 the gap is 0.86 vs 0.80 |
+| Clinical outcome | GSE168009 (5 vs 4), GSE56363 (12 vs 9), GSE70035 (6 vs 6) | no program significant after correction (lowest q = 0.20 over the 15 tests); signs conflict between the two CCRT cohorts; cohorts detect only large effects |
+| Prognosis (not treatment-specific) | TCGA-CESC (291 patients, 72 deaths) | hypoxia HR 1.87 per SD (q = 1e-4); T-cell/CDKN2A HR 0.71 (q = 0.006) |
+| Leakage and power | simulation and GSE236738 | with batch offsets and no treatment effect, random cell-level CV gives AUC 0.97 (3 patients) vs 0.49 for leave-one-patient-out; in GSE236738 the gap is 0.86 vs 0.80 |
 
 The full program-by-cohort table is `results/cross_cohort_table.csv`; figures are in `results/figures/`.
 
@@ -44,12 +45,14 @@ python code/analyze_gse168009.py
 python code/analyze_gse56363.py
 python code/analyze_gse70035.py
 python code/analyze_gse297038.py
-python code/analyze_tcga_programs.py
+python code/analyze_tcga_survival.py
 python code/score_gse63514.py
 python code/score_gse6213.py
 python code/benchmark_programs.py
 python code/gene_level_gse63514.py
 python code/build_cross_cohort_table.py
+python code/robustness_analyses.py     # CDKN2A split, GSE63514 by dissection method, TCGA Cox
+python code/power_simulation.py         # power of leave-one-patient-out validation
 python code/make_fig_leakage.py
 python code/make_fig_heatmap_schematic.py
 ```
