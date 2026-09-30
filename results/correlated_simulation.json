@@ -1,0 +1,192 @@
+{
+  "params": {
+    "genes": 55,
+    "cells_per_sample": 300,
+    "within_block_correlation": 0.5,
+    "sample_offset_scale": 0.5,
+    "reps": 20,
+    "cell_level_sd_of_program_score": 0.7416198487095663
+  },
+  "results": [
+    {
+      "program_effect_sd": 0.0,
+      "patients": 3,
+      "lopo_auc_mean": 0.4501392592592593,
+      "lopo_auc_sd": 0.15040216971463438,
+      "cell_cv_auc_mean": 0.9694978395061729,
+      "cell_cv_auc_sd": 0.012481625921884709,
+      "fraction_lopo_above_0.6": 0.15
+    },
+    {
+      "program_effect_sd": 0.0,
+      "patients": 5,
+      "lopo_auc_mean": 0.5573859999999999,
+      "lopo_auc_sd": 0.09050083892142373,
+      "cell_cv_auc_mean": 0.9482718888888888,
+      "cell_cv_auc_sd": 0.010724566980812129,
+      "fraction_lopo_above_0.6": 0.45
+    },
+    {
+      "program_effect_sd": 0.0,
+      "patients": 10,
+      "lopo_auc_mean": 0.5331180000000001,
+      "lopo_auc_sd": 0.06673449881747635,
+      "cell_cv_auc_mean": 0.8693289444444444,
+      "cell_cv_auc_sd": 0.019724620169479734,
+      "fraction_lopo_above_0.6": 0.15
+    },
+    {
+      "program_effect_sd": 0.0,
+      "patients": 20,
+      "lopo_auc_mean": 0.48921722222222225,
+      "lopo_auc_sd": 0.06538795079592358,
+      "cell_cv_auc_mean": 0.7683045972222222,
+      "cell_cv_auc_sd": 0.02421659631845411,
+      "fraction_lopo_above_0.6": 0.0
+    },
+    {
+      "program_effect_sd": 0.25,
+      "patients": 3,
+      "lopo_auc_mean": 0.5492907407407407,
+      "lopo_auc_sd": 0.11917810059106423,
+      "cell_cv_auc_mean": 0.9777373456790123,
+      "cell_cv_auc_sd": 0.010821911863759751,
+      "fraction_lopo_above_0.6": 0.35
+    },
+    {
+      "program_effect_sd": 0.25,
+      "patients": 5,
+      "lopo_auc_mean": 0.5005528888888888,
+      "lopo_auc_sd": 0.08436439648261905,
+      "cell_cv_auc_mean": 0.9372957777777777,
+      "cell_cv_auc_sd": 0.011029462830119496,
+      "fraction_lopo_above_0.6": 0.1
+    },
+    {
+      "program_effect_sd": 0.25,
+      "patients": 10,
+      "lopo_auc_mean": 0.5164243888888889,
+      "lopo_auc_sd": 0.09069822842095991,
+      "cell_cv_auc_mean": 0.8649755555555556,
+      "cell_cv_auc_sd": 0.025943471605005985,
+      "fraction_lopo_above_0.6": 0.2
+    },
+    {
+      "program_effect_sd": 0.25,
+      "patients": 20,
+      "lopo_auc_mean": 0.5215703333333335,
+      "lopo_auc_sd": 0.056429259400270014,
+      "cell_cv_auc_mean": 0.780617138888889,
+      "cell_cv_auc_sd": 0.02210735119821364,
+      "fraction_lopo_above_0.6": 0.05
+    },
+    {
+      "program_effect_sd": 0.5,
+      "patients": 3,
+      "lopo_auc_mean": 0.5441957407407407,
+      "lopo_auc_sd": 0.16379482237167378,
+      "cell_cv_auc_mean": 0.9775447530864196,
+      "cell_cv_auc_sd": 0.01132281998362141,
+      "fraction_lopo_above_0.6": 0.35
+    },
+    {
+      "program_effect_sd": 0.5,
+      "patients": 5,
+      "lopo_auc_mean": 0.543614111111111,
+      "lopo_auc_sd": 0.11834046844065256,
+      "cell_cv_auc_mean": 0.9425731111111112,
+      "cell_cv_auc_sd": 0.019074707290604027,
+      "fraction_lopo_above_0.6": 0.35
+    },
+    {
+      "program_effect_sd": 0.5,
+      "patients": 10,
+      "lopo_auc_mean": 0.5410787222222222,
+      "lopo_auc_sd": 0.07430732630851664,
+      "cell_cv_auc_mean": 0.8684292777777778,
+      "cell_cv_auc_sd": 0.02201003008528016,
+      "fraction_lopo_above_0.6": 0.15
+    },
+    {
+      "program_effect_sd": 0.5,
+      "patients": 20,
+      "lopo_auc_mean": 0.5791932777777777,
+      "lopo_auc_sd": 0.05247358626922408,
+      "cell_cv_auc_mean": 0.8042063611111112,
+      "cell_cv_auc_sd": 0.02159837740464552,
+      "fraction_lopo_above_0.6": 0.5
+    },
+    {
+      "program_effect_sd": 1.0,
+      "patients": 3,
+      "lopo_auc_mean": 0.6035994444444446,
+      "lopo_auc_sd": 0.15484948005161825,
+      "cell_cv_auc_mean": 0.9818382716049383,
+      "cell_cv_auc_sd": 0.01220528968006755,
+      "fraction_lopo_above_0.6": 0.6
+    },
+    {
+      "program_effect_sd": 1.0,
+      "patients": 5,
+      "lopo_auc_mean": 0.6181716666666667,
+      "lopo_auc_sd": 0.0865750780946732,
+      "cell_cv_auc_mean": 0.9571055555555554,
+      "cell_cv_auc_sd": 0.014175944595870306,
+      "fraction_lopo_above_0.6": 0.5
+    },
+    {
+      "program_effect_sd": 1.0,
+      "patients": 10,
+      "lopo_auc_mean": 0.6178701111111111,
+      "lopo_auc_sd": 0.06794912186579995,
+      "cell_cv_auc_mean": 0.8931903333333334,
+      "cell_cv_auc_sd": 0.019424734568788883,
+      "fraction_lopo_above_0.6": 0.7
+    },
+    {
+      "program_effect_sd": 1.0,
+      "patients": 20,
+      "lopo_auc_mean": 0.6685736111111111,
+      "lopo_auc_sd": 0.031765881386032424,
+      "cell_cv_auc_mean": 0.8444221041666665,
+      "cell_cv_auc_sd": 0.015406720831539978,
+      "fraction_lopo_above_0.6": 0.95
+    },
+    {
+      "program_effect_sd": 2.0,
+      "patients": 3,
+      "lopo_auc_mean": 0.7448783333333333,
+      "lopo_auc_sd": 0.08611161006048199,
+      "cell_cv_auc_mean": 0.9889435185185185,
+      "cell_cv_auc_sd": 0.00447394456648678,
+      "fraction_lopo_above_0.6": 0.95
+    },
+    {
+      "program_effect_sd": 2.0,
+      "patients": 5,
+      "lopo_auc_mean": 0.7828215555555554,
+      "lopo_auc_sd": 0.09021000786258639,
+      "cell_cv_auc_mean": 0.9772287777777777,
+      "cell_cv_auc_sd": 0.009664575315917235,
+      "fraction_lopo_above_0.6": 1.0
+    },
+    {
+      "program_effect_sd": 2.0,
+      "patients": 10,
+      "lopo_auc_mean": 0.8224394444444446,
+      "lopo_auc_sd": 0.043417921434203505,
+      "cell_cv_auc_mean": 0.9511610555555556,
+      "cell_cv_auc_sd": 0.012265255756091884,
+      "fraction_lopo_above_0.6": 1.0
+    },
+    {
+      "program_effect_sd": 2.0,
+      "patients": 20,
+      "lopo_auc_mean": 0.8577396388888889,
+      "lopo_auc_sd": 0.03191371466827766,
+      "cell_cv_auc_mean": 0.9325037986111111,
+      "cell_cv_auc_sd": 0.013739221876459819,
+      "fraction_lopo_above_0.6": 1.0
+    }
+  ]
+}

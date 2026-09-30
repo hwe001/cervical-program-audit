@@ -1,0 +1,99 @@
+{
+  "GSE224327_arbitrary_labels": {
+    "logistic_regression": {
+      "random_cell_mean": 0.833851962962963,
+      "random_cell_range": [
+        0.7864575617283951,
+        0.8996387037037037
+      ],
+      "patient_holdout_mean": 0.5349180925925926,
+      "patient_holdout_range": [
+        0.40113401851851854,
+        0.7848138888888889
+      ]
+    },
+    "random_forest": {
+      "random_cell_mean": 0.8973071172839507,
+      "random_cell_range": [
+        0.8682788580246914,
+        0.9442367901234567
+      ],
+      "patient_holdout_mean": 0.5434250851851852,
+      "patient_holdout_range": [
+        0.2920453518518518,
+        0.9231004259259259
+      ]
+    },
+    "gradient_boosting": {
+      "random_cell_mean": 0.9056203024691358,
+      "random_cell_range": [
+        0.8754942592592594,
+        0.9523542901234568
+      ],
+      "patient_holdout_mean": 0.5403081611111111,
+      "patient_holdout_range": [
+        0.3049659259259259,
+        0.8845979444444444
+      ]
+    },
+    "neural_network": {
+      "random_cell_mean": 0.8877917160493827,
+      "random_cell_range": [
+        0.8475113888888888,
+        0.9430988271604939
+      ],
+      "patient_holdout_mean": 0.5402303037037037,
+      "patient_holdout_range": [
+        0.35589298148148146,
+        0.8547492222222223
+      ]
+    }
+  },
+  "GSE236738_true_labels": {
+    "logistic_regression": {
+      "random_cell": 0.8677274691358026,
+      "lopo_per_patient": {
+        "P1": 0.8899122222222222,
+        "P2": 0.7776297777777778,
+        "P3": 0.7475898888888889
+      },
+      "lopo_mean": 0.805043962962963,
+      "random_cell_label_flipped_P1": 0.706670987654321,
+      "lopo_label_flipped_P1_held_out_P2_P3": 0.3382067222222222
+    },
+    "random_forest": {
+      "random_cell": 0.9026319444444445,
+      "lopo_per_patient": {
+        "P1": 0.8932337222222222,
+        "P2": 0.7668467222222223,
+        "P3": 0.8008585555555555
+      },
+      "lopo_mean": 0.8203130000000001,
+      "random_cell_label_flipped_P1": 0.7961257098765433,
+      "lopo_label_flipped_P1_held_out_P2_P3": 0.3913235277777778
+    },
+    "gradient_boosting": {
+      "random_cell": 0.9104515740740741,
+      "lopo_per_patient": {
+        "P1": 0.892459611111111,
+        "P2": 0.7723786666666668,
+        "P3": 0.7960280555555554
+      },
+      "lopo_mean": 0.8202887777777778,
+      "random_cell_label_flipped_P1": 0.8021178703703704,
+      "lopo_label_flipped_P1_held_out_P2_P3": 0.3884924444444444
+    },
+    "neural_network": {
+      "random_cell": 0.8976004320987654,
+      "lopo_per_patient": {
+        "P1": 0.8806397777777777,
+        "P2": 0.78267,
+        "P3": 0.7919856666666666
+      },
+      "lopo_mean": 0.8184318148148148,
+      "random_cell_label_flipped_P1": 0.7811072222222222,
+      "lopo_label_flipped_P1_held_out_P2_P3": 0.3747178333333333
+    }
+  },
+  "note": "cells subsampled to 3,000 per patient (GSE224327) or per sample (GSE236738); GSE224327 patient holdout uses 3 random one-patient-per-class pairs per labeling"
+}
