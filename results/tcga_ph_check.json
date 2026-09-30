@@ -1,0 +1,37 @@
+{
+  "n_patients": 238,
+  "events": 48,
+  "split_time_days": 593.0,
+  "programs": {
+    "ACKR2_TGFb": {
+      "interaction_program_x_late_beta": -0.5306828564866749,
+      "interaction_p": 0.07221260298805154,
+      "HR_early_per_SD": 1.7873012714360996,
+      "HR_late_per_SD": 1.0512962810329718
+    },
+    "MDM2_DDR": {
+      "interaction_program_x_late_beta": 0.0692813338273217,
+      "interaction_p": 0.7913204909102609,
+      "HR_early_per_SD": 0.9337815486664932,
+      "HR_late_per_SD": 1.0007688732121895
+    },
+    "Tcell_senescence": {
+      "interaction_program_x_late_beta": 0.6327706007607565,
+      "interaction_p": 0.02710095110411506,
+      "HR_early_per_SD": 0.5102639314665995,
+      "HR_late_per_SD": 0.9607350852889228
+    },
+    "Hypoxia": {
+      "interaction_program_x_late_beta": -0.8686682381000113,
+      "interaction_p": 0.020496612884144224,
+      "HR_early_per_SD": 3.1003915966070497,
+      "HR_late_per_SD": 1.3006448590482305
+    },
+    "CAF_ECM": {
+      "interaction_program_x_late_beta": 0.17289995814885412,
+      "interaction_p": 0.5555320622959311,
+      "HR_early_per_SD": 1.1278859815780413,
+      "HR_late_per_SD": 1.340771273947665
+    }
+  }
+}

@@ -46,6 +46,7 @@ python code/analyze_gse56363.py
 python code/analyze_gse70035.py
 python code/analyze_gse297038.py
 python code/analyze_tcga_survival.py
+python code/tcga_ph_check.py            # proportional-hazards check (two-period interaction)
 python code/analyze_tcga_adjusted.py      # Cox adjusted for age, FIGO stage, histology (needs clinical_covariates.json from GDC)
 python code/score_gse63514.py
 python code/score_gse6213.py

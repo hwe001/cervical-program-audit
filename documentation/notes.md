@@ -19,3 +19,6 @@ The first analysis took follow-up times from a partial GDC clinical pull: only 1
 
 ## T-cell/CDKN2A program
 The program mixes CDKN2A (p16) with T-cell genes. Stage association: CDKN2A alone rho 0.52, remaining T-cell genes 0.18. Treatment effect in GSE297038: CDKN2A alone -1.39 (11/12 fell), T-cell genes alone -0.97 (9/12 fell, p=0.023).
+
+## TCGA proportional hazards
+Two-period check (split at the median event time, 593 days): hypoxia and T-cell/CDKN2A violate proportional hazards (interaction p = 0.020 and 0.027). Adjusted HR early vs late: hypoxia 3.10 vs 1.30; T-cell/CDKN2A 0.51 vs 0.96. The averaged hazard ratios should be read with this in mind.
