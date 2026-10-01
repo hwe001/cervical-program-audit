@@ -1,0 +1,132 @@
+{
+  "n_patients": 8,
+  "n_cells": 16000,
+  "panel_genes_present": 55,
+  "cells_per_sample": 2000,
+  "histology_SCC_vs_ADC": {
+    "logistic_regression": {
+      "random_cell": 0.8383190416666666,
+      "patient_holdout_mean": 0.5694843583333334,
+      "patient_holdout_range": [
+        0.2488935,
+        0.86095875
+      ],
+      "n_holdout_pairs": 15
+    },
+    "random_forest": {
+      "random_cell": 0.8802306666666666,
+      "patient_holdout_mean": 0.44660384166666667,
+      "patient_holdout_range": [
+        0.12573687500000003,
+        0.6898396250000001
+      ],
+      "n_holdout_pairs": 15
+    },
+    "gradient_boosting": {
+      "random_cell": 0.8885876250000001,
+      "patient_holdout_mean": 0.5157830083333333,
+      "patient_holdout_range": [
+        0.17145699999999997,
+        0.8317585
+      ],
+      "n_holdout_pairs": 15
+    },
+    "neural_network": {
+      "random_cell": 0.8706700416666667,
+      "patient_holdout_mean": 0.5411085250000001,
+      "patient_holdout_range": [
+        0.20549524999999996,
+        0.7942765
+      ],
+      "n_holdout_pairs": 15
+    }
+  },
+  "hpv_positive_vs_negative": {
+    "logistic_regression": {
+      "random_cell": 0.8234392708333333,
+      "patient_holdout_mean": 0.6359580833333333,
+      "patient_holdout_range": [
+        0.307356875,
+        0.85366225
+      ],
+      "n_holdout_pairs": 12
+    },
+    "random_forest": {
+      "random_cell": 0.8678664062499999,
+      "patient_holdout_mean": 0.62531909375,
+      "patient_holdout_range": [
+        0.34462962499999994,
+        0.8164268750000001
+      ],
+      "n_holdout_pairs": 12
+    },
+    "gradient_boosting": {
+      "random_cell": 0.8736892708333333,
+      "patient_holdout_mean": 0.6450166770833333,
+      "patient_holdout_range": [
+        0.36342675,
+        0.8253025
+      ],
+      "n_holdout_pairs": 12
+    },
+    "neural_network": {
+      "random_cell": 0.8540369791666667,
+      "patient_holdout_mean": 0.6260859375000001,
+      "patient_holdout_range": [
+        0.308918875,
+        0.8473947500000001
+      ],
+      "n_holdout_pairs": 12
+    }
+  },
+  "arbitrary_labels": {
+    "logistic_regression": {
+      "random_cell_mean": 0.8263513916015626,
+      "random_cell_range": [
+        0.79663625,
+        0.8716126171875
+      ],
+      "patient_holdout_mean": 0.5317874322916667,
+      "patient_holdout_range": [
+        0.37552075,
+        0.7230187916666666
+      ]
+    },
+    "random_forest": {
+      "random_cell_mean": 0.8768938134765625,
+      "random_cell_range": [
+        0.8627828515625,
+        0.9152497265624999
+      ],
+      "patient_holdout_mean": 0.55583971875,
+      "patient_holdout_range": [
+        0.4182237916666667,
+        0.820341125
+      ]
+    },
+    "gradient_boosting": {
+      "random_cell_mean": 0.8832947753906251,
+      "random_cell_range": [
+        0.8686412109374999,
+        0.9237629296875
+      ],
+      "patient_holdout_mean": 0.53838909375,
+      "patient_holdout_range": [
+        0.4225439583333333,
+        0.7679587916666666
+      ]
+    },
+    "neural_network": {
+      "random_cell_mean": 0.8671164013671875,
+      "random_cell_range": [
+        0.8489681249999999,
+        0.9095811328125001
+      ],
+      "patient_holdout_mean": 0.5297970052083334,
+      "patient_holdout_range": [
+        0.3997385416666666,
+        0.7049007083333333
+      ]
+    }
+  }
+}

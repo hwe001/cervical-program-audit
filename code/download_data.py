@@ -65,7 +65,7 @@ if not mat2.exists():
         t2.extractall(mat2)
 
 # additional public cohorts for the leakage demonstration (unpacked to work/additional_cohorts/<accession>)
-for acc, suppl in (('GSE228499', 'GSE228nnn'), ('GSE292163', 'GSE292nnn'), ('GSE237425', 'GSE237nnn')):
+for acc, suppl in (('GSE228499', 'GSE228nnn'), ('GSE292163', 'GSE292nnn'), ('GSE237425', 'GSE237nnn'), ('GSE197461', 'GSE197nnn')):
     tarpath = W / 'additional_cohorts' / acc / f'{acc}_RAW.tar'
     get(GEO + f'series/{suppl}/{acc}/suppl/{acc}_RAW.tar', tarpath)
     if not any(tarpath.parent.glob('*_matrix.mtx.gz')):
