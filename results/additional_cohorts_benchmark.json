@@ -1,0 +1,170 @@
+{
+  "settings": {
+    "cells_per_sample": 2000,
+    "labelings": 8,
+    "holdout_pairs_per_labeling": 3,
+    "panel_genes": 55
+  },
+  "GSE228499": {
+    "n_patients": 9,
+    "n_cells": 18000,
+    "models": {
+      "logistic_regression": {
+        "random_cell_mean": 0.7805815625,
+        "random_cell_range": [
+          0.7224003437500001,
+          0.8224932812500001
+        ],
+        "patient_holdout_mean": 0.529655375,
+        "patient_holdout_range": [
+          0.356910375,
+          0.6935802916666667
+        ]
+      },
+      "random_forest": {
+        "random_cell_mean": 0.8556359140625001,
+        "random_cell_range": [
+          0.8353260624999999,
+          0.87918090625
+        ],
+        "patient_holdout_mean": 0.5285877708333333,
+        "patient_holdout_range": [
+          0.348506375,
+          0.6913279583333333
+        ]
+      },
+      "gradient_boosting": {
+        "random_cell_mean": 0.86729537890625,
+        "random_cell_range": [
+          0.8545606875,
+          0.8868755625
+        ],
+        "patient_holdout_mean": 0.5307052135416667,
+        "patient_holdout_range": [
+          0.356209,
+          0.6659024583333334
+        ]
+      },
+      "neural_network": {
+        "random_cell_mean": 0.84361236328125,
+        "random_cell_range": [
+          0.82603278125,
+          0.86423696875
+        ],
+        "patient_holdout_mean": 0.5167851875,
+        "patient_holdout_range": [
+          0.3589509166666667,
+          0.654226375
+        ]
+      }
+    }
+  },
+  "GSE292163": {
+    "n_patients": 10,
+    "n_cells": 18903,
+    "models": {
+      "logistic_regression": {
+        "random_cell_mean": 0.7788462322026539,
+        "random_cell_range": [
+          0.7005641525591854,
+          0.8146264663294156
+        ],
+        "patient_holdout_mean": 0.5626081611866757,
+        "patient_holdout_range": [
+          0.27184398389243875,
+          0.762728264543799
+        ]
+      },
+      "random_forest": {
+        "random_cell_mean": 0.8357667303958647,
+        "random_cell_range": [
+          0.77309023540325,
+          0.8673641200929577
+        ],
+        "patient_holdout_mean": 0.5609061176579497,
+        "patient_holdout_range": [
+          0.21714007228434506,
+          0.7677819252923136
+        ]
+      },
+      "gradient_boosting": {
+        "random_cell_mean": 0.846582580159504,
+        "random_cell_range": [
+          0.7823890110903194,
+          0.8787958251107236
+        ],
+        "patient_holdout_mean": 0.5575102686170756,
+        "patient_holdout_range": [
+          0.2620804033546326,
+          0.7858393901667625
+        ]
+      },
+      "neural_network": {
+        "random_cell_mean": 0.8264888272643114,
+        "random_cell_range": [
+          0.7604849319507936,
+          0.8581857274041216
+        ],
+        "patient_holdout_mean": 0.5377920515717125,
+        "patient_holdout_range": [
+          0.25063797830138446,
+          0.7525596018545141
+        ]
+      }
+    }
+  },
+  "GSE237425_real_labels": {
+    "n_patients": 4,
+    "n_cells": 11625,
+    "models": {
+      "logistic_regression": {
+        "random_cell": 0.6526223617145195,
+        "lopo_per_patient": {
+          "RAM5": 0.44996,
+          "RAM12": 0.4368760195758564,
+          "RAM13": 0.20244313299868857,
+          "RAM15": 0.30875511214929496
+        },
+        "lopo_mean": 0.34950856618096005,
+        "random_cell_label_flipped_RAM5": 0.6904716398855706,
+        "lopo_label_flipped_RAM5_other_patients": 0.5994168541939042
+      },
+      "random_forest": {
+        "random_cell": 0.7474923770490454,
+        "lopo_per_patient": {
+          "RAM5": 0.49902649999999993,
+          "RAM12": 0.4413276237085373,
+          "RAM13": 0.2335882303831022,
+          "RAM15": 0.40786234719667913
+        },
+        "lopo_mean": 0.39545117532207963,
+        "random_cell_label_flipped_RAM5": 0.7416412883659733,
+        "lopo_label_flipped_RAM5_other_patients": 0.5990935181607276
+      },
+      "gradient_boosting": {
+        "random_cell": 0.7558764824521808,
+        "lopo_per_patient": {
+          "RAM5": 0.5492855,
+          "RAM12": 0.5043756117455138,
+          "RAM13": 0.37290760047170307,
+          "RAM15": 0.5031783988591284
+        },
+        "lopo_mean": 0.48243677776908633,
+        "random_cell_label_flipped_RAM5": 0.7457048473148612,
+        "lopo_label_flipped_RAM5_other_patients": 0.5984444861123398
+      },
+      "neural_network": {
+        "random_cell": 0.7340975986208058,
+        "lopo_per_patient": {
+          "RAM5": 0.536653,
+          "RAM12": 0.52978955954323,
+          "RAM13": 0.3242553979733467,
+          "RAM15": 0.5008731618334752
+        },
+        "lopo_mean": 0.472892779837513,
+        "random_cell_label_flipped_RAM5": 0.7150768957916642,
+        "lopo_label_flipped_RAM5_other_patients": 0.5502582812334577
+      }
+    }
+  }
+}
