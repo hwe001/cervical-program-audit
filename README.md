@@ -59,7 +59,7 @@ python code/validation_strategies.py    # random cell, sample split, LOPO, pseud
 python code/second_cohort_null_labels.py # second cohort (GSE224327): leakage with arbitrary labels
 python code/model_family_benchmark.py   # logistic regression, random forest, gradient boosting, neural network
 python code/correlated_simulation.py    # power with correlated genes and program-level effects
-python code/additional_cohorts_benchmark.py  # note: GSE292163 and GSE237425 results are in results/ but are not used in the manuscript  # GSE228499, GSE292163 (arbitrary labels), GSE237425 (paired, real labels); set CERVIX_EXTRA_DATA to the folder holding the three unpacked cohorts
+python code/additional_cohorts_benchmark.py  # note: GSE228499, GSE292163 and GSE237425 results are in results/ but are not used in the manuscript  # GSE228499, GSE292163 (arbitrary labels), GSE237425 (paired, real labels); set CERVIX_EXTRA_DATA to the folder holding the three unpacked cohorts
 python code/gse197461_benchmark.py      # cervical cohort GSE197461: arbitrary and real (histology, HPV) patient-level labels
 python code/gse300897_benchmark.py      # ovarian cohort, real chemo-refractory vs sensitive label, plus patient-level program test
 python code/gse173682_benchmark.py      # endometrial/ovarian cohort, real tumour-site label
@@ -92,3 +92,7 @@ Only public data are used (GEO accessions GSE236738, GSE297038, GSE6213, GSE6351
 ## Licence and citation
 
 Code: MIT (see `LICENSE`). Please cite the manuscript and this repository (`CITATION.cff`).
+
+
+## Results kept for a separate women's-cancers analysis
+The manuscript for this repository is restricted to cervical cancer. Results for breast (GSE228499), ovarian (GSE300897), endometrial/ovarian (GSE173682), neuroendocrine (GSE292163) and renal (GSE237425) cohorts are in `results/` (`additional_cohorts_benchmark.json`, `gse300897_benchmark.json`, `gse173682_benchmark.json`) and are not used in the cervical-cancer manuscript.
