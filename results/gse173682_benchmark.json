@@ -1,0 +1,94 @@
+{
+  "n_patients": 11,
+  "n_nuclei_used": 22000,
+  "cells_per_patient_cap": 2000,
+  "panel_genes_present": 55,
+  "real_label_tumour_site_endometrium_vs_ovary": {
+    "logistic_regression": {
+      "random_cell": 0.8479553958333333,
+      "patient_holdout_mean": 0.7215304333333332,
+      "patient_holdout_range": [
+        0.49174224999999994,
+        0.829285625
+      ],
+      "n_pairs": 30
+    },
+    "random_forest": {
+      "random_cell": 0.9099164166666667,
+      "patient_holdout_mean": 0.7087395291666666,
+      "patient_holdout_range": [
+        0.33745112499999996,
+        0.875647875
+      ],
+      "n_pairs": 30
+    },
+    "gradient_boosting": {
+      "random_cell": 0.9201712708333332,
+      "patient_holdout_mean": 0.7298230708333332,
+      "patient_holdout_range": [
+        0.46824062499999997,
+        0.8726492499999999
+      ],
+      "n_pairs": 30
+    },
+    "neural_network": {
+      "random_cell": 0.9102091874999999,
+      "patient_holdout_mean": 0.7401115333333332,
+      "patient_holdout_range": [
+        0.41440875,
+        0.8764050000000001
+      ],
+      "n_pairs": 30
+    }
+  },
+  "arbitrary_labels": {
+    "logistic_regression": {
+      "random_cell_mean": 0.7668726536458335,
+      "random_cell_range": [
+        0.7169153541666666,
+        0.7988329583333333
+      ],
+      "patient_holdout_mean": 0.4691976614583333,
+      "patient_holdout_range": [
+        0.2806545833333333,
+        0.6514401666666666
+      ]
+    },
+    "random_forest": {
+      "random_cell_mean": 0.8643969973958333,
+      "random_cell_range": [
+        0.8475786458333333,
+        0.8906503541666666
+      ],
+      "patient_holdout_mean": 0.45626815625,
+      "patient_holdout_range": [
+        0.3068807083333333,
+        0.7254290833333333
+      ]
+    },
+    "gradient_boosting": {
+      "random_cell_mean": 0.8697883906249999,
+      "random_cell_range": [
+        0.8486014374999999,
+        0.9017020833333333
+      ],
+      "patient_holdout_mean": 0.468219515625,
+      "patient_holdout_range": [
+        0.30501275,
+        0.716764875
+      ]
+    },
+    "neural_network": {
+      "random_cell_mean": 0.855983609375,
+      "random_cell_range": [
+        0.8340595416666666,
+        0.89319875
+      ],
+      "patient_holdout_mean": 0.46907958854166676,
+      "patient_holdout_range": [
+        0.3068863333333333,
+        0.7169133333333333
+      ]
+    }
+  }
+}

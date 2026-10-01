@@ -72,6 +72,15 @@ for acc, suppl in (('GSE228499', 'GSE228nnn'), ('GSE292163', 'GSE292nnn'), ('GSE
         with tarfile.open(tarpath) as t3:
             t3.extractall(tarpath.parent)
 
+# GSE300897 (ovarian, chemo-refractory vs sensitive) and GSE173682 (endometrial/ovarian, RNA files only; the series archive is 17 GB because of ATAC data)
+for fn in ('GSE300897_UMIcounts_HGSC.tsv.gz', 'GSE300897_annotation_HGSC.tsv.gz'):
+    get(GEO + f'series/GSE300nnn/GSE300897/suppl/{fn}', W / 'additional_cohorts' / 'GSE300897' / fn)
+for gsm, stem in (('GSM5276933', '3533EL'), ('GSM5276934', '3571DL'), ('GSM5276935', '36186L'), ('GSM5276936', '36639L'), ('GSM5276937', '366C5L'), ('GSM5276938', '37EACL'),
+                  ('GSM5276939', '38FE7L'), ('GSM5276940', '3BAE2L'), ('GSM5276941', '3CCF1L'), ('GSM5276942', '3E4D1L'), ('GSM5276943', '3E5CFL')):
+    for kind, ext in (('barcodes', 'tsv.gz'), ('features', 'tsv.gz'), ('matrix', 'mtx.gz')):
+        fn = f'{gsm}_{kind}-{stem}.{ext}'
+        get(GEO + f'samples/{gsm[:7]}nnn/{gsm}/suppl/{fn}', W / 'additional_cohorts' / 'GSE173682' / fn)
+
 # TCGA-CESC clinical fields from the GDC API
 clin = W / 'data_tcga_cesc' / 'clinical.json'
 if not clin.exists():

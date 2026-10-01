@@ -1,0 +1,267 @@
+{
+  "n_patients": 9,
+  "n_cells_total": 19156,
+  "n_cells_used_in_models": 15246,
+  "panel_genes_found": 55,
+  "cells_per_patient_cap": 2000,
+  "real_label_refractory_vs_sensitive": {
+    "logistic_regression": {
+      "random_cell": 0.8030192307671763,
+      "patient_holdout_mean": 0.476393695195669,
+      "patient_holdout_range": [
+        0.2156901776384535,
+        0.6714252873563219
+      ],
+      "n_pairs": 20
+    },
+    "random_forest": {
+      "random_cell": 0.8621607170492089,
+      "patient_holdout_mean": 0.4539397358646369,
+      "patient_holdout_range": [
+        0.20756387147335426,
+        0.6763510971786834
+      ],
+      "n_pairs": 20
+    },
+    "gradient_boosting": {
+      "random_cell": 0.8732080138698113,
+      "patient_holdout_mean": 0.4357845144656635,
+      "patient_holdout_range": [
+        0.24269683908045975,
+        0.6318915882967607
+      ],
+      "n_pairs": 20
+    },
+    "neural_network": {
+      "random_cell": 0.8569711558371328,
+      "patient_holdout_mean": 0.45879145895640755,
+      "patient_holdout_range": [
+        0.2596679728317659,
+        0.6591086729362592
+      ],
+      "n_pairs": 20
+    }
+  },
+  "arbitrary_labels": {
+    "logistic_regression": {
+      "random_cell_mean": 0.7951950501810179,
+      "random_cell_range": [
+        0.7570695513054548,
+        0.8372064310912884
+      ],
+      "patient_holdout_mean": 0.5477204849970685,
+      "patient_holdout_range": [
+        0.33066440558478627,
+        0.6978429001684293
+      ]
+    },
+    "random_forest": {
+      "random_cell_mean": 0.867726678421544,
+      "random_cell_range": [
+        0.8491317797190842,
+        0.8932026008013813
+      ],
+      "patient_holdout_mean": 0.5710255665802444,
+      "patient_holdout_range": [
+        0.34162585416163366,
+        0.6726123048895198
+      ]
+    },
+    "gradient_boosting": {
+      "random_cell_mean": 0.8795781835707078,
+      "random_cell_range": [
+        0.8629582242845547,
+        0.9046039271884639
+      ],
+      "patient_holdout_mean": 0.5688831137341491,
+      "patient_holdout_range": [
+        0.3608041825756579,
+        0.6589659256029284
+      ]
+    },
+    "neural_network": {
+      "random_cell_mean": 0.8602070981912117,
+      "random_cell_range": [
+        0.8308471305826224,
+        0.8925329467827515
+      ],
+      "patient_holdout_mean": 0.5636905822543916,
+      "patient_holdout_range": [
+        0.3928310262547135,
+        0.6861412530864198
+      ]
+    }
+  },
+  "programs_all_cells": {
+    "patients_used": [
+      "EOC1127",
+      "EOC115",
+      "EOC136",
+      "EOC153",
+      "EOC204",
+      "EOC3",
+      "EOC372",
+      "EOC649",
+      "EOC87"
+    ],
+    "n_refractory": 4,
+    "n_sensitive": 5,
+    "programs": {
+      "ACKR2_TGFb": {
+        "refractory_minus_sensitive": -0.08653950500183032,
+        "exact_permutation_p": 0.746031746031746,
+        "n_permutations": 126,
+        "genes_present": [
+          "ACKR2",
+          "TGFB1",
+          "TGFB2",
+          "TGFB3",
+          "TGFBR1",
+          "TGFBR2"
+        ],
+        "BH_q": 0.753968253968254
+      },
+      "MDM2_DDR": {
+        "refractory_minus_sensitive": -0.1501367231405928,
+        "exact_permutation_p": 0.753968253968254,
+        "n_permutations": 126,
+        "genes_present": [
+          "MDM2",
+          "CDKN1A",
+          "GADD45A",
+          "DDB2",
+          "BBC3"
+        ],
+        "BH_q": 0.753968253968254
+      },
+      "Tcell_senescence": {
+        "refractory_minus_sensitive": -0.16399318752569642,
+        "exact_permutation_p": 0.753968253968254,
+        "n_permutations": 126,
+        "genes_present": [
+          "CD8A",
+          "CD8B",
+          "CDKN2A",
+          "TOX",
+          "TIGIT",
+          "LAG3"
+        ],
+        "BH_q": 0.753968253968254
+      },
+      "Hypoxia": {
+        "refractory_minus_sensitive": 0.3776693366881207,
+        "exact_permutation_p": 0.4523809523809524,
+        "n_permutations": 126,
+        "genes_present": [
+          "HIF1A",
+          "EPAS1",
+          "VEGFA",
+          "CA9",
+          "SLC2A1",
+          "LDHA"
+        ],
+        "BH_q": 0.753968253968254
+      },
+      "CAF_ECM": {
+        "refractory_minus_sensitive": -1.210406791367828,
+        "exact_permutation_p": 0.05555555555555555,
+        "n_permutations": 126,
+        "genes_present": [
+          "COL1A1",
+          "COL1A2",
+          "DCN",
+          "LUM",
+          "FAP",
+          "PDGFRA"
+        ],
+        "BH_q": 0.27777777777777773
+      }
+    }
+  },
+  "programs_cancer_cells_only": {
+    "patients_used": [
+      "EOC1127",
+      "EOC115",
+      "EOC136",
+      "EOC153",
+      "EOC204",
+      "EOC3",
+      "EOC372",
+      "EOC649",
+      "EOC87"
+    ],
+    "n_refractory": 4,
+    "n_sensitive": 5,
+    "programs": {
+      "ACKR2_TGFb": {
+        "refractory_minus_sensitive": 0.015011911707553347,
+        "exact_permutation_p": 0.9682539682539683,
+        "n_permutations": 126,
+        "genes_present": [
+          "ACKR2",
+          "TGFB1",
+          "TGFB2",
+          "TGFB3",
+          "TGFBR1",
+          "TGFBR2"
+        ],
+        "BH_q": 0.9682539682539683
+      },
+      "MDM2_DDR": {
+        "refractory_minus_sensitive": -0.29612598450971056,
+        "exact_permutation_p": 0.7619047619047619,
+        "n_permutations": 126,
+        "genes_present": [
+          "MDM2",
+          "CDKN1A",
+          "GADD45A",
+          "DDB2",
+          "BBC3"
+        ],
+        "BH_q": 0.9682539682539683
+      },
+      "Tcell_senescence": {
+        "refractory_minus_sensitive": -0.515441851842994,
+        "exact_permutation_p": 0.2222222222222222,
+        "n_permutations": 126,
+        "genes_present": [
+          "CD8A",
+          "CD8B",
+          "CDKN2A",
+          "TOX",
+          "TIGIT",
+          "LAG3"
+        ],
+        "BH_q": 0.5555555555555555
+      },
+      "Hypoxia": {
+        "refractory_minus_sensitive": -0.06470647734493272,
+        "exact_permutation_p": 0.873015873015873,
+        "n_permutations": 126,
+        "genes_present": [
+          "HIF1A",
+          "EPAS1",
+          "VEGFA",
+          "CA9",
+          "SLC2A1",
+          "LDHA"
+        ],
+        "BH_q": 0.9682539682539683
+      },
+      "CAF_ECM": {
+        "refractory_minus_sensitive": -0.7661746782438834,
+        "exact_permutation_p": 0.11904761904761904,
+        "n_permutations": 126,
+        "genes_present": [
+          "COL1A1",
+          "COL1A2",
+          "DCN",
+          "LUM",
+          "FAP",
+          "PDGFRA"
+        ],
+        "BH_q": 0.5555555555555555
+      }
+    }
+  }
+}

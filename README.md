@@ -61,6 +61,8 @@ python code/model_family_benchmark.py   # logistic regression, random forest, gr
 python code/correlated_simulation.py    # power with correlated genes and program-level effects
 python code/additional_cohorts_benchmark.py  # note: GSE292163 and GSE237425 results are in results/ but are not used in the manuscript  # GSE228499, GSE292163 (arbitrary labels), GSE237425 (paired, real labels); set CERVIX_EXTRA_DATA to the folder holding the three unpacked cohorts
 python code/gse197461_benchmark.py      # cervical cohort GSE197461: arbitrary and real (histology, HPV) patient-level labels
+python code/gse300897_benchmark.py      # ovarian cohort, real chemo-refractory vs sensitive label, plus patient-level program test
+python code/gse173682_benchmark.py      # endometrial/ovarian cohort, real tumour-site label
 python code/robustness_analyses.py     # CDKN2A split, GSE63514 by dissection method, TCGA Cox
 python code/power_simulation.py         # power of leave-one-patient-out validation
 python code/make_fig_leakage.py
