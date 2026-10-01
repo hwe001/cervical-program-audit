@@ -59,7 +59,7 @@ python code/validation_strategies.py    # random cell, sample split, LOPO, pseud
 python code/second_cohort_null_labels.py # second cohort (GSE224327): leakage with arbitrary labels
 python code/model_family_benchmark.py   # logistic regression, random forest, gradient boosting, neural network
 python code/correlated_simulation.py    # power with correlated genes and program-level effects
-python code/additional_cohorts_benchmark.py  # GSE228499, GSE292163 (arbitrary labels), GSE237425 (paired, real labels); set CERVIX_EXTRA_DATA to the folder holding the three unpacked cohorts
+python code/additional_cohorts_benchmark.py  # note: GSE292163 and GSE237425 results are in results/ but are not used in the manuscript  # GSE228499, GSE292163 (arbitrary labels), GSE237425 (paired, real labels); set CERVIX_EXTRA_DATA to the folder holding the three unpacked cohorts
 python code/gse197461_benchmark.py      # cervical cohort GSE197461: arbitrary and real (histology, HPV) patient-level labels
 python code/robustness_analyses.py     # CDKN2A split, GSE63514 by dissection method, TCGA Cox
 python code/power_simulation.py         # power of leave-one-patient-out validation
