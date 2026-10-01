@@ -63,6 +63,7 @@ python code/additional_cohorts_benchmark.py  # note: GSE228499, GSE292163 and GS
 python code/gse197461_benchmark.py      # cervical cohort GSE197461: arbitrary and real (histology, HPV) patient-level labels
 python code/gse300897_benchmark.py      # ovarian cohort, real chemo-refractory vs sensitive label, plus patient-level program test
 python code/gse173682_benchmark.py      # endometrial/ovarian cohort, real tumour-site label
+python code/spatial_image_leakage.py    # Visium Patients 5-7 (Zenodo 10.5281/zenodo.16917924): H&E tile features, random-spot vs spatial-block vs leave-one-slide-out; set CERVIX_VISIUM_DIR
 python code/robustness_analyses.py     # CDKN2A split, GSE63514 by dissection method, TCGA Cox
 python code/power_simulation.py         # power of leave-one-patient-out validation
 python code/make_fig_leakage.py
@@ -96,3 +97,5 @@ Code: MIT (see `LICENSE`). Please cite the manuscript and this repository (`CITA
 
 ## Results kept for a separate women's-cancers analysis
 The manuscript for this repository is restricted to cervical cancer. Results for breast (GSE228499), ovarian (GSE300897), endometrial/ovarian (GSE173682), neuroendocrine (GSE292163) and renal (GSE237425) cohorts are in `results/` (`additional_cohorts_benchmark.json`, `gse300897_benchmark.json`, `gse173682_benchmark.json`) and are not used in the cervical-cancer manuscript.
+
+Spatial leakage results (`results/spatial_image_leakage.json`) use three Visium cervical-cancer slides (Su et al., Front Immunol 2025; data CC-BY-4.0) and are kept for the separate women's-cancers analysis; they are not used in the cervical-cancer manuscript.

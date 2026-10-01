@@ -1,0 +1,459 @@
+{
+  "patients": [
+    "Patient5",
+    "Patient6",
+    "Patient7"
+  ],
+  "spots": {
+    "Patient5": 4990,
+    "Patient6": 4959,
+    "Patient7": 4418
+  },
+  "neighbour_correlation_of_scores": {
+    "Patient5": {
+      "epi": 0.8920641323782351,
+      "fib": 0.8729868282281392
+    },
+    "Patient6": {
+      "epi": 0.5981542890858352,
+      "fib": 0.8250362196842297
+    },
+    "Patient7": {
+      "epi": 0.7508701244069458,
+      "fib": 0.7463921852723708
+    }
+  },
+  "feature_count": 33,
+  "results": {
+    "epithelial_high": {
+      "logistic_regression": {
+        "random_spot_per_slide": [
+          0.9002680680558829,
+          0.7790630984950584,
+          0.7978974875719076
+        ],
+        "random_spot_mean": 0.8257428847076164,
+        "spatial_block_per_slide": [
+          0.8841487377759385,
+          0.7608416449048284,
+          0.7882685144848143
+        ],
+        "spatial_block_mean": 0.8110862990551938,
+        "leave_one_slide_out_per_slide": [
+          0.7918320006746962,
+          0.7484949381254148,
+          0.6696419294621923
+        ],
+        "leave_one_slide_out_mean": 0.7366562894207677,
+        "leave_one_slide_out_slide_zscored_mean": 0.7512844977183892
+      },
+      "random_forest": {
+        "random_spot_per_slide": [
+          0.9247798960033743,
+          0.7808574686897118,
+          0.8123553042175808
+        ],
+        "random_spot_mean": 0.839330889636889,
+        "spatial_block_per_slide": [
+          0.8915075337883565,
+          0.7567769488780375,
+          0.7960377174109724
+        ],
+        "spatial_block_mean": 0.8147740666924554,
+        "leave_one_slide_out_per_slide": [
+          0.8375261143529544,
+          0.7031140613410714,
+          0.7024475575350111
+        ],
+        "leave_one_slide_out_mean": 0.7476959110763456,
+        "leave_one_slide_out_slide_zscored_mean": 0.7171606209482331
+      },
+      "gradient_boosting": {
+        "random_spot_per_slide": [
+          0.9252954211861291,
+          0.7708581717621883,
+          0.804587063093081
+        ],
+        "random_spot_mean": 0.8335802186804662,
+        "spatial_block_per_slide": [
+          0.8836971754036196,
+          0.743886990552185,
+          0.7840940542555889
+        ],
+        "spatial_block_mean": 0.8038927400704644,
+        "leave_one_slide_out_per_slide": [
+          0.7796161461198952,
+          0.7035625056929825,
+          0.6929664049760629
+        ],
+        "leave_one_slide_out_mean": 0.7253816855963136,
+        "leave_one_slide_out_slide_zscored_mean": 0.7033509377501233
+      },
+      "neural_network": {
+        "random_spot_per_slide": [
+          0.8941331776345699,
+          0.7763273805238571,
+          0.8027024989803822
+        ],
+        "random_spot_mean": 0.8243876857129363,
+        "spatial_block_per_slide": [
+          0.8716406654741086,
+          0.7592678534965025,
+          0.7756345495981343
+        ],
+        "spatial_block_mean": 0.8021810228562485,
+        "leave_one_slide_out_per_slide": [
+          0.7996841779751889,
+          0.7252451235539825,
+          0.7030600975760505
+        ],
+        "leave_one_slide_out_mean": 0.7426631330350739,
+        "leave_one_slide_out_slide_zscored_mean": 0.7223907709001441
+      }
+    },
+    "fibroblast_high": {
+      "logistic_regression": {
+        "random_spot_per_slide": [
+          0.8879366480066178,
+          0.8187877874194776,
+          0.7552572300822528
+        ],
+        "random_spot_mean": 0.8206605551694494,
+        "spatial_block_per_slide": [
+          0.8704990167209449,
+          0.8007059989315785,
+          0.7454477376139721
+        ],
+        "spatial_block_mean": 0.8055509177554985,
+        "leave_one_slide_out_per_slide": [
+          0.663631230396665,
+          0.747587151426824,
+          0.6528545615994159
+        ],
+        "leave_one_slide_out_mean": 0.6880243144743017,
+        "leave_one_slide_out_slide_zscored_mean": 0.7288295123337565
+      },
+      "random_forest": {
+        "random_spot_per_slide": [
+          0.8970375876906391,
+          0.8409038564804419,
+          0.7845192235121947
+        ],
+        "random_spot_mean": 0.8408202225610918,
+        "spatial_block_per_slide": [
+          0.8652407778231082,
+          0.8210989671669265,
+          0.7643147518191489
+        ],
+        "spatial_block_mean": 0.8168848322697279,
+        "leave_one_slide_out_per_slide": [
+          0.3950968871610957,
+          0.6757217075043267,
+          0.590837392854164
+        ],
+        "leave_one_slide_out_mean": 0.5538853291731954,
+        "leave_one_slide_out_slide_zscored_mean": 0.6782796302513748
+      },
+      "gradient_boosting": {
+        "random_spot_per_slide": [
+          0.8953709793803208,
+          0.838116482961382,
+          0.7829342597778168
+        ],
+        "random_spot_mean": 0.8388072407065067,
+        "spatial_block_per_slide": [
+          0.8582683847781739,
+          0.8162032458417787,
+          0.7662446835756649
+        ],
+        "spatial_block_mean": 0.8135721047318726,
+        "leave_one_slide_out_per_slide": [
+          0.4848073702515251,
+          0.652212130281461,
+          0.5854425729878654
+        ],
+        "leave_one_slide_out_mean": 0.5741540245069505,
+        "leave_one_slide_out_slide_zscored_mean": 0.6845439064353928
+      },
+      "neural_network": {
+        "random_spot_per_slide": [
+          0.8730399170361978,
+          0.8259391324055816,
+          0.7534930159359592
+        ],
+        "random_spot_mean": 0.8174906884592462,
+        "spatial_block_per_slide": [
+          0.8587539615260292,
+          0.8078810617852239,
+          0.7339047650885812
+        ],
+        "spatial_block_mean": 0.8001799294666115,
+        "leave_one_slide_out_per_slide": [
+          0.7044116288689604,
+          0.758124699085219,
+          0.6285199790724024
+        ],
+        "leave_one_slide_out_mean": 0.6970187690088606,
+        "leave_one_slide_out_slide_zscored_mean": 0.7128422967215151
+      }
+    },
+    "arbitrary_smooth_1": {
+      "logistic_regression": {
+        "random_spot_per_slide": [
+          0.5554487592258673,
+          0.5845732000136172,
+          0.5739348187569275
+        ],
+        "random_spot_mean": 0.5713189259988041,
+        "spatial_block_per_slide": [
+          0.4983684519305184,
+          0.5137232490564394,
+          0.508346483594794
+        ],
+        "spatial_block_mean": 0.5068127281939172,
+        "leave_one_slide_out_per_slide": [
+          0.5116932060513814,
+          0.4725311975432341,
+          0.4652244685666952
+        ],
+        "leave_one_slide_out_mean": 0.4831496240537702,
+        "leave_one_slide_out_slide_zscored_mean": 0.4850754723217731
+      },
+      "random_forest": {
+        "random_spot_per_slide": [
+          0.6419591287378192,
+          0.6547072801004351,
+          0.6216882344632687
+        ],
+        "random_spot_mean": 0.6394515477671744,
+        "spatial_block_per_slide": [
+          0.5373192913870486,
+          0.5228058769028422,
+          0.5109906559600077
+        ],
+        "spatial_block_mean": 0.5237052747499661,
+        "leave_one_slide_out_per_slide": [
+          0.5213143722314368,
+          0.47267514866816746,
+          0.4833949186432474
+        ],
+        "leave_one_slide_out_mean": 0.49246147984761723,
+        "leave_one_slide_out_slide_zscored_mean": 0.49274416839577984
+      },
+      "gradient_boosting": {
+        "random_spot_per_slide": [
+          0.6182807759544156,
+          0.6399771354890815,
+          0.6160086084660167
+        ],
+        "random_spot_mean": 0.6247555066365046,
+        "spatial_block_per_slide": [
+          0.5306222890944585,
+          0.5212314802263796,
+          0.5078803295902672
+        ],
+        "spatial_block_mean": 0.5199113663037017,
+        "leave_one_slide_out_per_slide": [
+          0.5137910289516909,
+          0.48475167211024217,
+          0.4834074194604115
+        ],
+        "leave_one_slide_out_mean": 0.4939833735074482,
+        "leave_one_slide_out_slide_zscored_mean": 0.49794116712356623
+      },
+      "neural_network": {
+        "random_spot_per_slide": [
+          0.572238614416945,
+          0.6019265347914,
+          0.5804300605310848
+        ],
+        "random_spot_mean": 0.5848650699131434,
+        "spatial_block_per_slide": [
+          0.5177116291991309,
+          0.5295442346762916,
+          0.5216535027261695
+        ],
+        "spatial_block_mean": 0.5229697888671974,
+        "leave_one_slide_out_per_slide": [
+          0.5322767378444263,
+          0.4841912386628323,
+          0.4692577240192545
+        ],
+        "leave_one_slide_out_mean": 0.4952419001755044,
+        "leave_one_slide_out_slide_zscored_mean": 0.49369589097360217
+      }
+    },
+    "arbitrary_smooth_2": {
+      "logistic_regression": {
+        "random_spot_per_slide": [
+          0.6110903076209377,
+          0.609496436574298,
+          0.6146095050611177
+        ],
+        "random_spot_mean": 0.611732083085451,
+        "spatial_block_per_slide": [
+          0.5292813592565556,
+          0.518938468858571,
+          0.5426151147742608
+        ],
+        "spatial_block_mean": 0.5302783142964625,
+        "leave_one_slide_out_per_slide": [
+          0.5197609648154023,
+          0.5424512680711526,
+          0.5493045549493911
+        ],
+        "leave_one_slide_out_mean": 0.537172262611982,
+        "leave_one_slide_out_slide_zscored_mean": 0.5027616966553999
+      },
+      "random_forest": {
+        "random_spot_per_slide": [
+          0.6589812359422971,
+          0.6846963385518989,
+          0.6539066703327271
+        ],
+        "random_spot_mean": 0.6658614149423077,
+        "spatial_block_per_slide": [
+          0.5357089885272331,
+          0.525568458689456,
+          0.5272992525959225
+        ],
+        "spatial_block_mean": 0.5295255666042039,
+        "leave_one_slide_out_per_slide": [
+          0.5124456528287035,
+          0.549833439602337,
+          0.5343398472154225
+        ],
+        "leave_one_slide_out_mean": 0.5322063132154876,
+        "leave_one_slide_out_slide_zscored_mean": 0.5102256305031506
+      },
+      "gradient_boosting": {
+        "random_spot_per_slide": [
+          0.6395086138015283,
+          0.6691005082037643,
+          0.6525697757798857
+        ],
+        "random_spot_mean": 0.6537262992617262,
+        "spatial_block_per_slide": [
+          0.5308399324700958,
+          0.5277979033999867,
+          0.5393945734935428
+        ],
+        "spatial_block_mean": 0.5326774697878751,
+        "leave_one_slide_out_per_slide": [
+          0.49598612053766855,
+          0.5537812788715533,
+          0.5500566532935247
+        ],
+        "leave_one_slide_out_mean": 0.5332746842342488,
+        "leave_one_slide_out_slide_zscored_mean": 0.5081280509949949
+      },
+      "neural_network": {
+        "random_spot_per_slide": [
+          0.6117286202261507,
+          0.6043848939692388,
+          0.5976986187645169
+        ],
+        "random_spot_mean": 0.6046040443199687,
+        "spatial_block_per_slide": [
+          0.5199093336069456,
+          0.4953299007664945,
+          0.5190444360584765
+        ],
+        "spatial_block_mean": 0.5114278901439722,
+        "leave_one_slide_out_per_slide": [
+          0.4771408950164858,
+          0.5514393485926947,
+          0.5404347128429092
+        ],
+        "leave_one_slide_out_mean": 0.52300498548403,
+        "leave_one_slide_out_slide_zscored_mean": 0.5189949338565029
+      }
+    },
+    "arbitrary_smooth_3": {
+      "logistic_regression": {
+        "random_spot_per_slide": [
+          0.5717916818515498,
+          0.5806496734795488,
+          0.5770210312185623
+        ],
+        "random_spot_mean": 0.5764874621832203,
+        "spatial_block_per_slide": [
+          0.5078624079553051,
+          0.5302029494401299,
+          0.5385943858485526
+        ],
+        "spatial_block_mean": 0.5255532477479958,
+        "leave_one_slide_out_per_slide": [
+          0.5440975739053256,
+          0.5272601139897721,
+          0.5133806902541376
+        ],
+        "leave_one_slide_out_mean": 0.5282461260497451,
+        "leave_one_slide_out_slide_zscored_mean": 0.5151711004606314
+      },
+      "random_forest": {
+        "random_spot_per_slide": [
+          0.6353378330791066,
+          0.6494366147513382,
+          0.6193806548808526
+        ],
+        "random_spot_mean": 0.6347183675704325,
+        "spatial_block_per_slide": [
+          0.5274075477625619,
+          0.5447318286975193,
+          0.544095423309573
+        ],
+        "spatial_block_mean": 0.5387449332565514,
+        "leave_one_slide_out_per_slide": [
+          0.5157510210802366,
+          0.4892184673840909,
+          0.49757863270160485
+        ],
+        "leave_one_slide_out_mean": 0.5008493737219775,
+        "leave_one_slide_out_slide_zscored_mean": 0.5155123871369808
+      },
+      "gradient_boosting": {
+        "random_spot_per_slide": [
+          0.6164840493452344,
+          0.6272824654115278,
+          0.6004506563845615
+        ],
+        "random_spot_mean": 0.6147390570471079,
+        "spatial_block_per_slide": [
+          0.5145451071691901,
+          0.5238708791318525,
+          0.533822304111973
+        ],
+        "spatial_block_mean": 0.5240794301376719,
+        "leave_one_slide_out_per_slide": [
+          0.5094888775547086,
+          0.4894559460760713,
+          0.4933390113001239
+        ],
+        "leave_one_slide_out_mean": 0.4974279449769679,
+        "leave_one_slide_out_slide_zscored_mean": 0.506554256900806
+      },
+      "neural_network": {
+        "random_spot_per_slide": [
+          0.5825788011551523,
+          0.5831603379482697,
+          0.5615420136312457
+        ],
+        "random_spot_mean": 0.5757603842448892,
+        "spatial_block_per_slide": [
+          0.51913512252374,
+          0.5041556588783951,
+          0.5363839344055391
+        ],
+        "spatial_block_mean": 0.5198915719358914,
+        "leave_one_slide_out_per_slide": [
+          0.5330548873297697,
+          0.5056853374799933,
+          0.5002923346833533
+        ],
+        "leave_one_slide_out_mean": 0.5130108531643721,
+        "leave_one_slide_out_slide_zscored_mean": 0.5120110175484849
+      }
+    }
+  }
+}
